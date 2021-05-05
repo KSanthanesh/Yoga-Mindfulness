@@ -52,5 +52,3 @@ This is important for the yoga centre to improve their services and enhance futu
 The website is created to communicate to the public, the benefits of yoga and how to enrol in to the yoga training session.
 The yoga training is designed to learn and follow via online.
 Very experienced and well trained instructors are conducting the training session. The online training is designed for all age groups above 6 years old. The training is priced at affordable rate. The centre appreciate every feedback from the client.
-
-
