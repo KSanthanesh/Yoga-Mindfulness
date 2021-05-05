@@ -52,3 +52,14 @@ This is important for the yoga centre to improve their services and enhance futu
 The website is created to communicate to the public, the benefits of yoga and how to enrol in to the yoga training session.
 The yoga training is designed to learn and follow via online.
 Very experienced and well trained instructors are conducting the training session. The online training is designed for all age groups above 6 years old. The training is priced at affordable rate. The centre appreciate every feedback from the client.
+
+## Strategy
+The website covers all the screen types, such as Pc, Laptop, Tablet and Mobile. The website is easily navigate to all the sections.
+
+## Scope
+I want my user to understand the benefits of yoga. And how to enrol into the training session.
+
+## Structure
+This project is divided into three main pages. The website was better organised after my mentoring session with my mentor.
+The website was structured such a way that the users can navigate to find relevant information according to their need.
+
