@@ -37,3 +37,20 @@ The final page is designed for clients and public enquires. The page contains fo
 - Header and footer same as in Homepage
 
 This is important for the yoga centre to improve their services and enhance future Business growth.
+
+## UX
+
+- As a user i want to learn more about when and where yoga was originated
+- As a user i would like to know the benefits of the yoga
+- As a user i would like to understand different types of yoga
+- As a user i want to know the quality of trainers
+- As a user i would like to know how long the yoga centre is conducting the yoga training
+- As a user i would like to know the price and timing available for the yoga training
+- As a user i would like to know how to query my question to yoga centre.
+
+### Business Vision
+The website is created to communicate to the public, the benefits of yoga and how to enrol in to the yoga training session.
+The yoga training is designed to learn and follow via online.
+Very experienced and well trained instructors are conducting the training session. The online training is designed for all age groups above 6 years old. The training is priced at affordable rate. The centre appreciate every feedback from the client.
+
+
