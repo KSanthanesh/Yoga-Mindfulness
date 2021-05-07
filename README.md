@@ -1,4 +1,17 @@
 # Yoga Mindfulness
+## Types of Content
+- [Introduction](#introduction "Goto Indroduction")
+  - [Home](#home "Goto Home section")
+  - [Online Yoga](#online-yoga "Goto Online Yoga")
+  - [Contact](#contact "Goto Contact")
+- [UX](#ux "Goto UX")
+  - [Business Vision](#business-vision "Goto Business Vision" )
+- [Strategy](#strategy "Goto Strategy")
+- [Scope](#scope "Goto Scope")
+- [Structure](#structure "Goto Structure")
+
+
+## Introduction
 - This project will cover the origination of yoga, types of yoga and how that has grown into well known industry in last couple of years. 
 
 - It also covers, benefit in current Covid-19 situation.
