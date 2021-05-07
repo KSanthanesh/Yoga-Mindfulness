@@ -64,10 +64,11 @@ h1 {
     width: 100%;
     background: url('../image/Yoga-Sunset.jpg') no-repeat;
     margin-top: 10px;
+    
  /* animates zoom effect on loading page */
 
     animation-name: hero-zoom;
-    animation-duration: 7s;
+    animation-duration: 5s;
     animation-fill-mode: backwards;
 }
 
@@ -96,4 +97,16 @@ h1 {
     bottom: 10px;
     right: 100px;
     position: absolute;
+
 }
+.design {
+    color: blue;
+    font-size:200%;
+}
+
+
+
+
+            
+       
+        
