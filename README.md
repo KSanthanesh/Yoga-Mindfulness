@@ -24,7 +24,7 @@
 The home page covers the following section:
 - Introduction of Yoga
 - Hero Image
-- Usefulness of Yoga in Covid situation.
+- Usefulness of Yoga in **Covid-19 situation**.
 - Benefits of Yoga
 - Testimonials
 - Social media
