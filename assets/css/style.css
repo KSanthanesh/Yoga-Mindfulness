@@ -17,24 +17,24 @@ h1 {
     text-transform: uppercase;
     letter-spacing: 1px;
     color: green;
-    margin-bottom: 10px;
-     
+       
 }
 #logo {
-    font-size:250%
-}
 
-#sub-head { 
-    line-height: 5px;
+    font-size:200%;
+    margin-left: 30px;
+}
+#sub-logo {
+    float: left;
     color: orange;
-    padding-bottom: 10px;
-    margin-left: 10px;
+    margin-left: 30px;
 }
 
-       
+/* navigation links */       
 #menu {
     font-size: 110%;
     letter-spacing: 1px;
+    font-weight: bold;
 }
 #menu li {
     float: right;
@@ -45,65 +45,66 @@ h1 {
 #menu a {
     text-decoration: none;
     color: orange;
-    font-weight: 200;
-    font-size: 125%;
+    
 }
 #menu a:hover {
     background-color: green;
 }
-
 /* hero image */
 #hero-outer {
-    height: 900px;
-    width:100%;
+    height: 600px;
+    width: 100%;
     overflow: hidden;
+    
+    position: relative;
+    
 }
 
 #hero-image {
-    height: 700px;
+    height: 600px;
     width: 100%;
-    background: url('../image/Yoga-Sunset.jpg') no-repeat;
-    margin-top: 10px;
+    background: url("../image/OIP.jpg") no-repeat center center;
+    background-size: cover;
     
- /* animates zoom effect on loading page */
+/* animates zoom effects on loading page*/
+animation-name: hero-zoom;
+animation-duration: 5s;
+animation-fill-mode: forwards;
 
-    animation-name: hero-zoom;
-    animation-duration: 5s;
-    animation-fill-mode: backwards;
 }
 
 /* creates the level of zoom for hero image */
-
-@keyframes hero-zoom { 
-    from {
+@keyframes hero-zoom {
+    from{
         transform: scale(1);
+
     }
-    to {
+    to{
         transform: scale(1.1);
+
     }
 }
 #cover-text {
-    font-size:120%;
-    font-family:Oswald,sans-serif;
-    letter-spacing: 2px;
+    font-size: 110%;
+    font-family: Oswald, sans-serif;
+    letter-spacing: 1px;
 
-    width:250px;
-    height:100px;
+    width: 200px;
+    height: 100px;
+
+    padding-top: 10px;
+    padding-left: 10px;
     background-color: yellow;
     color: green;
 
-    padding: 10px;
-    
-    bottom: 10px;
-    right: 100px;
+    bottom: 30px;
+    right: 150px;
+
     position: absolute;
-
 }
-.design {
+#originate-yoga > h2 {
     color: blue;
-    font-size:200%;
 }
-
 
 
 
