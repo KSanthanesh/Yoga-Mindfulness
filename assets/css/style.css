@@ -23,16 +23,20 @@ h1 {
 
     font-size:200%;
     margin-left: 30px;
+    
 }
 #sub-logo {
     float: left;
     color: orange;
+    font-family: 'Great Vibes', cursive;
     margin-left: 30px;
+    margin-bottom: 10px;
+    
 }
 
 /* navigation links */       
 #menu {
-    font-size: 110%;
+    font-size: 130%;
     letter-spacing: 1px;
     font-weight: bold;
 }
@@ -88,6 +92,8 @@ animation-fill-mode: forwards;
     font-size: 110%;
     font-family: Oswald, sans-serif;
     letter-spacing: 1px;
+    border: 2px solid red;
+    border-radius: 30px;
 
     width: 200px;
     height: 100px;
@@ -102,9 +108,47 @@ animation-fill-mode: forwards;
 
     position: absolute;
 }
-#originate-yoga > h2 {
+#originate-yoga > div > h2  {
     color: blue;
 }
+hr {
+    border-top: 2px solid black;
+    width: 100%;
+    margin: 5px 0;
+}
+/* style benefits of yoga here */
+
+#benefits {
+    display: inline;
+    width: 50%;
+    
+}
+#benefits > h2 {
+    color: blue;
+    
+}
+.text-align-header {
+    margin-left: 150px;
+    margin-bottom: 30px;
+    margin-top: 60px;
+}
+
+.text-align-left {
+    float:left;
+    line-height: 20px;
+
+   
+    
+}
+.image-right {
+    float: right;
+    margin-right: 40px;
+    margin-top: 0;
+    line-height: 20px;
+    width: 40%;
+    height: 400px;
+}
+
 
 
 
