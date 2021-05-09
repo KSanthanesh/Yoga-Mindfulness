@@ -88,8 +88,10 @@ animation-fill-mode: forwards;
 
     }
 }
+
+
 #cover-text {
-    font-size: 110%;
+    font-size: 150%;
     font-family: Oswald, sans-serif;
     letter-spacing: 1px;
     border: 2px solid red;
@@ -108,7 +110,10 @@ animation-fill-mode: forwards;
 
     position: absolute;
 }
-#originate-yoga > div > h2  {
+#originate-yoga {
+    margin-top: 10px;
+}
+h2  {
     color: blue;
 }
 hr {
@@ -118,35 +123,39 @@ hr {
 }
 /* style benefits of yoga here */
 
-#benefits {
-    display: inline;
-    width: 50%;
-    
-}
-#benefits > h2 {
-    color: blue;
-    
-}
-.text-align-header {
-    margin-left: 150px;
+
+
+.benefits {
+    float: left;
+    margin-left: 200px;
     margin-bottom: 30px;
-    margin-top: 60px;
+    margin-top: 30px;
+    line-height:20px
+}
+.benefits > h2 {
+    font-size: 170%;
+    text-align:right;
+}
+#benefits-yoga {
+    font-size: 130%;
+
 }
 
-.text-align-left {
-    float:left;
-    line-height: 20px;
-
-   
-    
-}
 .image-right {
     float: right;
-    margin-right: 40px;
-    margin-top: 0;
-    line-height: 20px;
-    width: 40%;
-    height: 400px;
+    margin-right: 50px;
+    width: 20%;
+    height: auto;
+    margin-left: 70px;
+
+   
+}
+/* Testimonials */
+.container span {
+    width: 30%;
+    height: 200%;
+    
+
 }
 
 
