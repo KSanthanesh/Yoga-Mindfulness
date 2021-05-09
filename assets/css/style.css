@@ -125,38 +125,41 @@ hr {
 
 
 
-.benefits {
-    float: left;
-    margin-left: 200px;
-    margin-bottom: 30px;
-    margin-top: 30px;
-    line-height:20px
-}
-.benefits > h2 {
-    font-size: 170%;
-    text-align:right;
-}
-#benefits-yoga {
-    font-size: 130%;
-
-}
-
-.image-right {
-    float: right;
-    margin-right: 50px;
-    width: 20%;
-    height: auto;
+#benefits {
+    text-align: left;
     margin-left: 70px;
-
-   
 }
+
+
+
 /* Testimonials */
-.container span {
-    width: 30%;
-    height: 200%;
-    
+.container {
+    display: inline-block;
+    width: 25%;
+    height: 130px;
+    border: 1px solid black;
+  
+ }
 
+/* Footer */
+footer {
+    height: 150px;
 }
+.social-networks {
+    text-align: center;
+    font-size: 24px;
+}
+.social-networks > li {
+    display: inline-block
+}
+
+.social-networks i {
+    font-size: 160%;
+    margin: 10px;
+    padding: 50px;
+    color: #3a3a3a;
+}
+
 
 
 
