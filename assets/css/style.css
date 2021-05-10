@@ -35,7 +35,6 @@ h1 {
     
 }
 
-
 /* navigation links */       
 #menu {
     font-size: 130%;
@@ -226,6 +225,9 @@ footer {
 }
 
 /* Online-Yoga */
+.second-page {
+    margin-bottom: 50px;
+}
 
 .underline > h2 {
     text-decoration: underline;
@@ -236,15 +238,19 @@ footer {
     font-size: 140%;
 
 }
-#yogatype-img {
-    width: 50%;
-    border: 2px solid black;
-  
+* {
+    box-sizing: border-box;
 }
-.column1 {
-    display: inline-block;
-    width: 33.33%;
 
+.rows1 {
+  display: flex;
+}
+
+/* Create three equal columns that sits next to each other */
+.column1 {
+  flex: 30%;
+  margin: 5px;
+  border: 2px solid black;
 }
 
 
