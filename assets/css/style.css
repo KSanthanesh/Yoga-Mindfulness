@@ -125,43 +125,93 @@ hr {
 
 
 
-#benefits {
-    text-align: left;
-    margin-left: 70px;
-}
-
-
 
 /* Testimonials */
-.container {
+.container span {
     display: inline-block;
     width: 25%;
     height: 130px;
     border: 1px solid black;
+    padding: 10px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    border-radius: 20px;
   
+ }
+ .container h2 {
+     margin-bottom: 20px;
  }
 
 /* Footer */
+#contact div{
+    display: inline-block;
+}
+#contact i {
+    font-size: 160%;
+}
+#contact-box-left {
+    float: left;
+    margin-left: 200px;
+    margin-top: 50px;
+    color: orange;
+    font-size: 150%;
+    font-weight: bold;
+    
+}
+#contact-box-center {
+    float: center;
+    margin-left: 300px;
+    margin-top: 50px;
+    color: orange;
+    font-size: 150%;
+    font-weight: bold;
+}
+#contact-box-right {
+    float: right;
+    margin-right: 200px;
+    margin-top: 50px;
+    color: orange;
+    font-size: 150%;
+    font-weight: bold;
+    
+}
+
 footer {
     height: 150px;
 }
 .social-networks {
-    text-align: center;
+    text-align: right;
     font-size: 24px;
+    
 }
 .social-networks > li {
-    display: inline-block
+    display: inline-block;
+  
 }
 
 .social-networks i {
     font-size: 160%;
-    margin: 10px;
     padding: 50px;
     color: #3a3a3a;
 }
 
-
-
+.benefits {
+    
+    
+    float: left;
+    
+    width: 20%;
+    padding: 1px;
+    
+ 
+}
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+   
+    
+  }
 
 
             
