@@ -12,6 +12,7 @@ body {
 
 /* heading and logo */
 
+
 h1 {
     font-family: Oswald, sans-serif;
     text-transform: uppercase;
@@ -33,6 +34,7 @@ h1 {
     margin-bottom: 10px;
     
 }
+
 
 /* navigation links */       
 #menu {
@@ -115,6 +117,10 @@ animation-fill-mode: forwards;
 }
 h2  {
     color: blue;
+    margin-left: 3px;
+}
+p {
+    margin-left: 3px;
 }
 hr {
     border-top: 2px solid black;
@@ -200,22 +206,30 @@ hr {
 }
 
 footer {
-    height: 150px;
+    height: 200px;
 }
 .social-networks {
-    text-align: right;
-    font-size: 24px;
-    
-}
+    text-align: center ;
+     font-size: 24px;
+     margin-left: 200px;
+     
+ }
 .social-networks > li {
     display: inline-block;
-  
+      
 }
 
 .social-networks i {
     font-size: 160%;
     padding: 50px;
     color: #3a3a3a;
+}
+
+/* Online-Yoga */
+
+.underline > h2 {
+    text-decoration: underline;
+
 }
 
 
