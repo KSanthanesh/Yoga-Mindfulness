@@ -231,6 +231,22 @@ footer {
     text-decoration: underline;
 
 }
+.yoga-types {
+    text-align: center;
+    font-size: 140%;
+
+}
+#yogatype-img {
+    width: 50%;
+    border: 2px solid black;
+  
+}
+.column1 {
+    display: inline-block;
+    width: 33.33%;
+
+}
+
 
 
 
