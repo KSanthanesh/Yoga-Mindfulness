@@ -297,7 +297,9 @@ footer {
 
 }
 
-
+.form-section {
+    margin-bottom: 450px;
+}
 .contact-form {
     margin: 20px 10% 0 0;
     color: #000;
