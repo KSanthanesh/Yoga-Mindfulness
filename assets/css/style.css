@@ -11,6 +11,9 @@ body {
 }
 
 /* heading and logo */
+header {
+    background-color: lightcoral;
+}
 
 
 h1 {
@@ -226,10 +229,11 @@ footer {
 
 /* Online-Yoga */
 .second-page {
-    margin-bottom: 50px;
+     margin-bottom: 50px;
+
 }
 
-.underline > h2 {
+ .underline > h2 {
     text-decoration: underline;
 
 }
@@ -279,6 +283,72 @@ footer {
 }
 .yoga-text1 {
     margin-left: 200px;
+}
+/* contact details */
+
+#contact-header {
+    font-size: 150%;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+#contact-p {
+    font-size: 120%;
+    margin-left: 100px;
+
+}
+
+
+.contact-form {
+    margin: 20px 10% 0 0;
+    color: #000;
+    
+    max-width: 300px;
+    position: absolute;
+    left: 20%;
+    padding: 10px;
+}
+.text-input {
+    background: transparent;
+    color: #000;
+    width: 80%;
+    height: 25px;
+    margin: 5px 0 20px 1px;
+    border: 1px solid #000;
+    border-radius: 5px;
+}
+#age {
+    margin-left: 12px;
+}
+#email {
+    margin-left: 7px;
+}
+#message {
+    background: transparent;
+    color: #000;
+    width: 100%;
+    height: 50Px;   
+    border: 1px solid #000;
+    border-radius: 5px;
+}
+
+.text-input:hover {
+    border-color: red;
+}
+
+.button {
+    margin-top: 20px;
+    border-radius: 2px;
+    padding: 15px 32px 15px 32px;
+    text-align: center;
+    font-size: 100%;
+    background-color: #f16c6b;
+    color: #fafafa;
+    display: block;
+ 
+}
+.button:hover {
+    background-color: yellow;
+    color: #000;
 }
 
 
