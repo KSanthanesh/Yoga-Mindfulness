@@ -262,8 +262,23 @@ footer {
      margin-left:15px;
 }
 
+
+.rows3 {
+    display: flex;
+}
+ /* Create three equal columns that sits next to each other */
+.rows3 img {
+     flex: 30%;
+     border: 2px solid black;
+     margin-top: 60px;
+     margin-left:200px;
+}
+
 .yoga-text {
     margin-left: 10px;
+}
+.yoga-text1 {
+    margin-left: 200px;
 }
 
 
