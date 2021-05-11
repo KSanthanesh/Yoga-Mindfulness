@@ -238,21 +238,38 @@ footer {
     font-size: 140%;
 
 }
-* {
-    box-sizing: border-box;
-}
 
 .rows1 {
-  display: flex;
+    display: flex;
 }
-
 /* Create three equal columns that sits next to each other */
-.column1 {
-  flex: 30%;
-  margin: 5px;
-  border: 2px solid black;
+.rows1 img {
+     flex: 30%;
+     margin-top: 30px;
+     margin-left: 10px;
+     border: 2px solid black;
 }
 
+
+.rows2 {
+    display: flex;
+}
+ /* Create three equal columns that sits next to each other */
+.rows2 img {
+     flex: 30%;
+     border: 2px solid black;
+     margin-top: 40px;
+     margin-left:15px;
+}
+
+.yoga-text {
+    margin-left: 10px;
+}
+
+
+  
+  
+  
 
 
 
