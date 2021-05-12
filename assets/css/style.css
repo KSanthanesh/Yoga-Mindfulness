@@ -246,6 +246,9 @@ footer {
     padding: 50px;
     color: #3a3a3a;
 }
+footer P {
+    text-align: center;
+}
 
 /* Online-Yoga */
 .second-page {
