@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -21,51 +22,57 @@ h1 {
     text-transform: uppercase;
     letter-spacing: 1px;
     color: green;
-       
+
 }
+
 #logo {
 
-    font-size:200%;
+    font-size: 200%;
     margin-left: 30px;
-    
+
 }
+
 #sub-logo {
     float: left;
     color: orange;
     font-family: 'Great Vibes', cursive;
     margin-left: 30px;
     margin-bottom: 10px;
-    
+
 }
 
-/* navigation links */       
+/* navigation links */
 #menu {
     font-size: 130%;
     letter-spacing: 1px;
     font-weight: bold;
 }
+
 #menu li {
     float: right;
     list-style-type: none;
     margin-right: 30px;
-    
+
 }
+
 #menu a {
     text-decoration: none;
     color: orange;
-    
+
 }
+
 #menu a:hover {
     background-color: green;
 }
+
 /* hero image */
 #hero-outer {
     height: 600px;
     width: 100%;
     overflow: hidden;
-    
+
     position: relative;
-    
+
 }
 
 #hero-image {
@@ -73,21 +80,22 @@ h1 {
     width: 100%;
     background: url("../image/OIP.jpg") no-repeat center center;
     background-size: cover;
-    
-/* animates zoom effects on loading page*/
-animation-name: hero-zoom;
-animation-duration: 5s;
-animation-fill-mode: forwards;
+
+    /* animates zoom effects on loading page*/
+    animation-name: hero-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
 
 }
 
 /* creates the level of zoom for hero image */
 @keyframes hero-zoom {
-    from{
+    from {
         transform: scale(1);
 
     }
-    to{
+
+    to {
         transform: scale(1.1);
 
     }
@@ -114,16 +122,20 @@ animation-fill-mode: forwards;
 
     position: absolute;
 }
+
 #originate-yoga {
     margin-top: 10px;
 }
-h2  {
+
+h2 {
     color: blue;
     margin-left: 3px;
 }
+
 p {
     margin-left: 3px;
 }
+
 hr {
     border-top: 2px solid black;
     width: 100%;
@@ -134,26 +146,28 @@ hr {
 .benefits h2 {
     font-size: 130%;
     padding-bottom: 10px;
-    
-      
-     
+
+
+
 }
+
 .benefits li {
     font-size: 100%;
- 
+
 
 }
 
 #image-box-left {
-   
+
     margin: 20px 0 20px 40px;
-        
+
 }
+
 #benefits-right {
-   float: right;
-   margin-right: 25rem;
-   margin-top: 10px;
-    
+    float: right;
+    margin-right: 25rem;
+    margin-top: 10px;
+
 }
 
 /* Testimonials */
@@ -166,19 +180,22 @@ hr {
     margin-left: 30px;
     margin-bottom: 30px;
     border-radius: 20px;
-  
- }
- .container h2 {
-     margin-bottom: 20px;
- }
+
+}
+
+.container h2 {
+    margin-bottom: 20px;
+}
 
 /* Footer */
-#contact div{
+#contact div {
     display: inline-block;
 }
+
 #contact i {
     font-size: 160%;
 }
+
 #contact-box-left {
     float: left;
     margin-left: 200px;
@@ -186,8 +203,9 @@ hr {
     color: orange;
     font-size: 150%;
     font-weight: bold;
-    
+
 }
+
 #contact-box-center {
     float: center;
     margin-left: 300px;
@@ -196,6 +214,7 @@ hr {
     font-size: 150%;
     font-weight: bold;
 }
+
 #contact-box-right {
     float: right;
     margin-right: 200px;
@@ -203,21 +222,23 @@ hr {
     color: orange;
     font-size: 150%;
     font-weight: bold;
-    
+
 }
 
 footer {
     height: 200px;
 }
+
 .social-networks {
-    text-align: center ;
-     font-size: 24px;
-     margin-left: 200px;
-     
- }
-.social-networks > li {
+    text-align: center;
+    font-size: 24px;
+    margin-left: 200px;
+
+}
+
+.social-networks>li {
     display: inline-block;
-      
+
 }
 
 .social-networks i {
@@ -228,19 +249,21 @@ footer {
 
 /* Online-Yoga */
 .second-page {
-     margin-bottom: 50px;
+    margin-bottom: 50px;
 
 }
 
- .underline > h2 {
+.underline>h2 {
     text-decoration: underline;
 
 }
+
 .yoga-types {
     text-align: center;
     font-size: 140%;
 
 }
+
 .yoga-types img {
     border: 2px solid black;
 }
@@ -248,44 +271,80 @@ footer {
 .rows1 {
     display: flex;
 }
+
 /* Create three equal columns that sits next to each other */
 .rows1 img {
-     flex: 30%;
-     margin-top: 30px;
-     margin-left: 10px;
-     border: 2px solid black;
+    flex: 30%;
+    margin-top: 30px;
+    margin-left: 10px;
+    border: 2px solid black;
 }
 
 
 .rows2 {
     display: flex;
 }
- /* Create three equal columns that sits next to each other */
+
+/* Create three equal columns that sits next to each other */
 .rows2 img {
-     flex: 30%;
-     border: 2px solid black;
-     margin-top: 40px;
-     margin-left:15px;
+    flex: 30%;
+    border: 2px solid black;
+    margin-top: 40px;
+    margin-left: 15px;
 }
 
 
 .rows3 {
     display: flex;
 }
- /* Create three equal columns that sits next to each other */
+
+/* Create three equal columns that sits next to each other */
 .rows3 img {
-     flex: 30%;
-     border: 2px solid black;
-     margin-top: 60px;
-     margin-left:200px;
+    flex: 30%;
+    border: 2px solid black;
+    margin-top: 60px;
+    margin-left: 200px;
 }
 
 .yoga-text {
     margin-left: 10px;
 }
+
 .yoga-text1 {
     margin-left: 200px;
 }
+
+caption {
+    font-size: 130%;
+    color: rgb(0, 0, 255)
+}
+
+table,
+td,
+th {
+    border: 2px solid black;
+}
+
+table {
+    border-collapse: collapse;
+    width: 30%;
+    margin-left: 40px;
+}
+
+th {
+    height: 50px;
+}
+
+td {
+    height: 30px;
+}
+
+.table {
+    display: flex;
+    margin: 30px 0 30px 20em;
+
+}
+
 /* contact details */
 
 #contact-header {
@@ -293,6 +352,7 @@ footer {
     margin-left: 100px;
     margin-top: 20px;
 }
+
 #contact-p {
     font-size: 120%;
     margin-left: 100px;
@@ -302,15 +362,17 @@ footer {
 .form-section {
     margin-bottom: 450px;
 }
+
 .contact-form {
     margin: 20px 10% 0 0;
     color: #000;
-    
+
     max-width: 300px;
     position: absolute;
     left: 20%;
     padding: 10px;
 }
+
 .text-input {
     background: transparent;
     color: #000;
@@ -320,17 +382,20 @@ footer {
     border: 1px solid #000;
     border-radius: 5px;
 }
+
 #age {
     margin-left: 12px;
 }
+
 #email {
     margin-left: 7px;
 }
+
 #message {
     background: transparent;
     color: #000;
     width: 100%;
-    height: 50Px;   
+    height: 50Px;
     border: 1px solid #000;
     border-radius: 5px;
 }
@@ -348,8 +413,9 @@ footer {
     background-color: #f16c6b;
     color: #fafafa;
     display: block;
- 
+
 }
+
 .button:hover {
     background-color: yellow;
     color: #000;
@@ -365,20 +431,10 @@ footer {
         font-size: 90%;
         margin: 0;
     }
+
     .container {
         font-size: 90%;
-        
-       
+
+
     }
 }
-
-  
-  
-  
-
-
-
-
-            
-       
-        
