@@ -503,7 +503,7 @@ td {
   
     #contact-box-left {
         font-size: 100%;
-        margin-left: 0px;
+        margin-left: 0;
         
     }
     #contact-box-center {
@@ -512,7 +512,7 @@ td {
     }
     #contact-box-right {
         font-size: 100%;
-        margin-left: 0;
+        margin-left: 100px;
     }
 
     .social-networks {
@@ -573,11 +573,13 @@ td {
    }
    #menu{
     font-size: 100%;
+    float: left;
+    margin-left: 0;
     
 
 } 
 #hero-image {
-    width: 120%;
+    width: 150%;
     height: 500px;
     background-size:cover;
 
@@ -593,6 +595,21 @@ td {
 .text-input {
     width: 75%;
 }
+#contact-box-left {
+    font-size: 90%;
+    margin-left: 0;
+    
+}
+#contact-box-center {
+    font-size: 90%;
+    margin-left: 0;
+    padding-right: 20px;
+}
+#contact-box-right {
+    font-size: 90%;
+    margin-left: 0;
+}
+
 
 
 }
