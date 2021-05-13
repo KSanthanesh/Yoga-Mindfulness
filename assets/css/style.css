@@ -2,8 +2,9 @@
 :root {
     --primary-color: #fff0f5;
     --secondary-color: #ffb6c1;
-    --pink: hotpink;
-    --black: #000;
+    --pink: rgb(255, 105, 180);
+    --black: rgb(0, 0, 0);
+    --margin: 10px 10em 10px 10em;
     
 
     ;
@@ -19,6 +20,7 @@ body {
     font-family: Lato, sans-serif;
     font-weight: 300;
     background-color: var(--primary-color);
+    margin: var(--margin)
 }
 
 /* heading and logo */
@@ -135,6 +137,7 @@ h1 {
 
 #originate-yoga {
     margin-top: 10px;
+    margin-bottom: 50px;
 }
 
 h2 {
@@ -145,6 +148,9 @@ h2 {
 p {
     margin-left: 3px;
 }
+#covid-situation {
+    margin-bottom: 50px;
+}
 
 hr {
     border-top: 2px solid black;
@@ -152,17 +158,27 @@ hr {
     margin: 5px 0;
 }
 
+.benefits {
+    margin-top: 5px;
+    margin-bottom: 80px;
+}
 
 .benefits h2 {
     font-size: 130%;
     padding-bottom: 10px;
 
-
-
 }
+
 
 .benefits li {
     font-size: 100%;
+    display: block;  
+    border: 1px solid black;
+    margin-bottom: 3px;
+    border-radius: 10px;
+    width: 150%;
+    height: 20px;
+    text-align: center;
 
 
 }
@@ -176,7 +192,8 @@ hr {
 #benefits-right {
     float: right;
     margin-right: 25rem;
-    margin-top: 10px;
+    margin-top: 5px;
+    
 
 }
 
@@ -186,7 +203,7 @@ hr {
     width: 25%;
     height: 130px;
     border: 1px solid black;
-    padding: 10px;
+    padding: 10px 10px 40px 10px;
     margin-left: 30px;
     margin-bottom: 30px;
     border-radius: 20px;
@@ -200,6 +217,7 @@ hr {
 /* Footer */
 #contact div {
     display: inline-block;
+    
 }
 
 #contact i {
@@ -218,7 +236,7 @@ hr {
 
 #contact-box-center {
     float: center;
-    margin-left: 300px;
+    margin-left: 200px;
     margin-top: 50px;
     color: var(--pink);
     font-size: 150%;
@@ -316,7 +334,7 @@ footer P {
     flex: 30%;
     border: 2px solid black;
     margin-top: 60px;
-    margin-left: 200px;
+    margin-left: 100px;
 }
 
 .yoga-text {
@@ -342,7 +360,8 @@ th {
 table {
     border-collapse: collapse;
     width: 30%;
-    margin-left: 40px;
+    margin: 10px;
+        
 }
 
 th {
@@ -351,6 +370,7 @@ th {
 
 td {
     height: 30px;
+    padding: 5px;
 }
 
 .table {
