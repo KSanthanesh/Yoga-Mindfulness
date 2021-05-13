@@ -1,4 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+:root {
+    --primary-color: #fff0f5;
+    --secondary-color: #ffb6c1;
+    --pink: hotpink;
+    --black: #000;
+    
+
+    ;
+}
 
 * {
     margin: 0;
@@ -9,11 +18,12 @@
 body {
     font-family: Lato, sans-serif;
     font-weight: 300;
+    background-color: var(--primary-color);
 }
 
 /* heading and logo */
 header {
-    background-color: lightcoral;
+    background-color: var(--secondary-color);
 }
 
 
@@ -21,7 +31,7 @@ h1 {
     font-family: Oswald, sans-serif;
     text-transform: uppercase;
     letter-spacing: 1px;
-    color: green;
+    color: var(--black);
 
 }
 
@@ -34,7 +44,7 @@ h1 {
 
 #sub-logo {
     float: left;
-    color: orange;
+    color: var(--black);
     font-family: 'Great Vibes', cursive;
     margin-left: 30px;
     margin-bottom: 10px;
@@ -57,12 +67,12 @@ h1 {
 
 #menu a {
     text-decoration: none;
-    color: orange;
+    color: var(--black);
 
 }
 
 #menu a:hover {
-    background-color: green;
+    background-color: var(--pink);
 }
 
 /* hero image */
@@ -106,7 +116,7 @@ h1 {
     font-size: 150%;
     font-family: Oswald, sans-serif;
     letter-spacing: 1px;
-    border: 2px solid red;
+    border: 2px solid black;
     border-radius: 30px;
 
     width: 200px;
@@ -114,8 +124,8 @@ h1 {
 
     padding-top: 10px;
     padding-left: 10px;
-    background-color: yellow;
-    color: green;
+    background-color: var(--primary-color);
+    color: var(--pink);
 
     bottom: 30px;
     right: 150px;
@@ -128,7 +138,7 @@ h1 {
 }
 
 h2 {
-    color: blue;
+    color:var(--pink);
     margin-left: 3px;
 }
 
@@ -200,7 +210,7 @@ hr {
     float: left;
     margin-left: 200px;
     margin-top: 50px;
-    color: orange;
+    color: var(--pink);
     font-size: 150%;
     font-weight: bold;
 
@@ -210,7 +220,7 @@ hr {
     float: center;
     margin-left: 300px;
     margin-top: 50px;
-    color: orange;
+    color: var(--pink);
     font-size: 150%;
     font-weight: bold;
 }
@@ -219,7 +229,7 @@ hr {
     float: right;
     margin-right: 200px;
     margin-top: 50px;
-    color: orange;
+    color: var(--pink);
     font-size: 150%;
     font-weight: bold;
 
@@ -244,7 +254,7 @@ footer {
 .social-networks i {
     font-size: 160%;
     padding: 50px;
-    color: #3a3a3a;
+    color: var(--pink);
 }
 footer P {
     text-align: center;
@@ -318,8 +328,9 @@ footer P {
 }
 
 caption {
-    font-size: 130%;
-    color: rgb(0, 0, 255)
+    font-size: 150%;
+    font-weight: 10px;
+    color: var(--pink)
 }
 
 table,
@@ -404,7 +415,7 @@ td {
 }
 
 .text-input:hover {
-    border-color: red;
+    border-color: var(--pink);
 }
 
 .button {
@@ -413,15 +424,15 @@ td {
     padding: 15px 32px 15px 32px;
     text-align: center;
     font-size: 100%;
-    background-color: #f16c6b;
-    color: #fafafa;
+    background-color: var(--pink);
+    color: var(--black);
     display: block;
 
 }
 
 .button:hover {
-    background-color: yellow;
-    color: #000;
+    background-color: var(--secondary-color);
+    color:var(--black);
 }
 
 /* Media queries */
