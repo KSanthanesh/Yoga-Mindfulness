@@ -216,34 +216,31 @@ hr {
 }
 
 #contact i {
-    font-size: 160%;
+    font-size: 130%;
 }
 
 #contact-box-left {
-    float: left;
-    margin-left: 100px;
-    margin-top: 50px;
+    
+    width: 30%;
     color: var(--pink);
-    font-size: 150%;
+    font-size: 130%;
     font-weight: bold;
 
 }
 
 #contact-box-center {
-    float: center;
-    margin-left: 200px;
-    margin-top: 50px;
+    
+    width: 30%;
     color: var(--pink);
-    font-size: 150%;
+    font-size: 130%;
     font-weight: bold;
 }
 
 #contact-box-right {
-    float: right;
-    margin-right: 200px;
-    margin-top: 50px;
+   
+   width: 30%;
     color: var(--pink);
-    font-size: 150%;
+    font-size: 130%;
     font-weight: bold;
 
 }
@@ -329,7 +326,7 @@ footer P {
     flex: 30%;
     border: 2px solid black;
     margin-top: 60px;
-    margin-left: 100px;
+    margin-left: 60px;
 }
 
 .yoga-text {
@@ -337,7 +334,7 @@ footer P {
 }
 
 .yoga-text1 {
-    margin-left: 200px;
+    margin-left: 70px;
 }
 
 caption {
@@ -452,12 +449,16 @@ td {
 
 /* Media queries */
 
-/* For  medium screens sizes from 950px wide and down */
-@media screen and (max-width: 950px)  {
-    #menu li{
-        float: center;
-       
-    }
+/* For  medium screens sizes from 1200px wide and down */
+@media screen and (max-width: 1200px) and (min-width: 768px) {
+    #menu{
+        clear: left;
+        float: left;
+        margin-left: 30px;
+        margin-bottom: 20px;
+        line-height: 25px;
+
+    } 
     #hero-image {
         width: 110%;
         height: 500px;
@@ -493,22 +494,24 @@ td {
         margin: 5px;
 
     }
+  
     #contact-box-left {
         font-size: 100%;
-        margin-left: 0;
+        margin-left: 0px;
         
     }
     #contact-box-center {
         font-size: 100%;
-        margin-left: 70px;
+        margin-left: 0;
     }
     #contact-box-right {
         font-size: 100%;
-        margin-right: 40px;
+        margin-left: 0;
     }
 
     .social-networks {
        margin-left: 0;
+       margin-top: 20px;
        
     }
     .social-networks i {
@@ -517,6 +520,40 @@ td {
     footer p {
         text-align: left;
     }
+    
+    /* online yoga media query for max 1200px */
+    .second-page {
+        margin-bottom: 90px;
+    }
+
+    .yoga-types img {
+       width: 90%;
+       height: 50%
+    }
+    .yoga-text, h3 ~ p {
+        font-size: 90%;
+    }
+    .rows1 ,.rows2  {
+        margin-bottom: 20px;
+    }
+    .rows3 {
+        margin-left: 0;
+        margin-bottom: 50px;
+    }
+    .yoga-text1, h3 ~ p {
+        font-size: 90%;
+    }
+
+    .table {
+        display: block;
+        margin: 0;
+       
+    }
+  table {
+      width: 70%;
+  }
+    
+ }
 
 
 
@@ -524,4 +561,3 @@ td {
 
 
 
-}
