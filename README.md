@@ -15,6 +15,8 @@
 - [Scope](#scope "Goto Scope")
 - [Structure](#structure "Goto Structure")
 - [Wireframes](#wireframes)
+- [Technologies Used](#technologies-used)
+- [Testing](#testing)
 
 ## Introduction
 - This project will cover the origination of yoga, types of yoga and how that has grown into well known industry in last couple of years. 
@@ -112,9 +114,38 @@ width="500">
 <img src="assets/image/Contact-Mobile.png" 
 width="500">
 
-
-
-
 </details>
+
+# Technologies Used
+- HTML
+- CSS
+- GitHub
+- GitPod
+- Bootstrap
+- Google Fonts
+- Font Awesome
+- Responsive design
+
+# Testing
+- W3 Markup Validation Service
+- W3 CSS Validation Service
+- Browser Testing
+
+     I have used the most common browser to test my website,
+  1. Mozilla Firefox
+  2. Google Chrome
+  3. Microsoft Edge
+
+    All the pages Responsive and displaying the website in order.
+- Mobile Testing
+
+  I have verified the website in various mobiles and makesure the website works properly.
+- Features Testing
+
+  All the features tabs are Responding properly as per design.
+
+
+
+
 
 
