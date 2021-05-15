@@ -464,7 +464,8 @@ td {
         margin: var(--margin1)
     }
 
-    #logo, #sub-logo {
+    #logo,
+    #sub-logo {
         font-size: 150%;
     }
 
@@ -521,8 +522,10 @@ td {
         margin: 5px;
 
     }
+
     #contact-details {
         width: 100%;
+        line-height: 100%;
     }
 
     #contact-box-left {
@@ -579,10 +582,12 @@ td {
         margin-left: 0;
         margin-bottom: 50px;
     }
+
     .rows1 img {
         width: 80%;
         height: 80%;
     }
+
     .rows2 img {
         width: 80%;
         height: 80%;
@@ -616,18 +621,19 @@ td {
     body {
         margin: var(--margin2);
     }
+
     #logo,
     #sub-logo {
         font-size: 130%;
         margin-left: 0;
-        
+
     }
 
     #menu {
         font-size: 90%;
         float: left;
         margin-left: 0;
-               
+
 
     }
 
@@ -670,6 +676,7 @@ td {
         font-size: 90%;
         margin-left: 0;
     }
+
     footer p {
         font-size: 80%;
     }
@@ -686,6 +693,7 @@ td {
     caption {
         font-size: 120%;
     }
+
     table {
         width: 90%;
         height: 100px;
@@ -703,5 +711,3 @@ td {
 
 
 }
-
-
