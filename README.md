@@ -89,5 +89,32 @@ The website was structured such a way that the users can navigate to find releva
 <summary>Yoga Homepage</summary>
 <img src="assets/image/Yoga-Homepage.png" width="500">
 </details>
+<details>
+<summary>Yoga Homepage Mobile View</summary>
+<img src="assets/image/Yoga-Homepage-Mobile.png" width="500">
+</details>
+<details>
+<summary>Online Yoga</summary>
+<img src="assets/image/Online-Yoga.png" width="500">
+</details>
+<details>
+<summary>Online Yoga Mobile View</summary>
+<img src="assets/image/Online-Yoga-Mobile.png" 
+width="500">
+</details>
+<details>
+<summary>Contact</summary>
+<img src="assets/image/Contact.png" 
+width="500">
+</details>
+<details>
+<summary>Contact Mobile View</summary>
+<img src="assets/image/Contact-Mobile.png" 
+width="500">
+
+
+
+
+</details>
 
 
