@@ -1,6 +1,6 @@
 # Yoga Mindfulness
-<p align="center">
-  <img width="300" src="assets/image/Yoga-diff-screens.PNG">
+<p align="left">
+  <img width="400" src="assets/image/Yoga-diff-screens.PNG">
 </p>
 
 ## Types of Content
