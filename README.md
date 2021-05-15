@@ -146,7 +146,8 @@ width="500">
 
   All the features tabs are Responding properly as per design.
 - Contact Form Testing
-  In the contact form was tested to makesure all the relevant information are filled before submitting.
+
+  Contact form was tested to makesure all the relevant information are filled before submitting.
 
   # Deployment
   These are the steps for deployment of my Yoga Mindfulness project using github.
