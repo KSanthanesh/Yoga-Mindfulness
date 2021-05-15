@@ -14,7 +14,7 @@
 - [Strategy](#strategy "Goto Strategy")
 - [Scope](#scope "Goto Scope")
 - [Structure](#structure "Goto Structure")
-
+- [Wireframes](#wireframes)
 
 ## Introduction
 - This project will cover the origination of yoga, types of yoga and how that has grown into well known industry in last couple of years. 
@@ -45,6 +45,7 @@ The online yoga covers the following section:
 This page provides the client sufficient information to decide to join the yoga training.
 
 ## Colours
+I have used warm and light colours to create pleasant experience for those people to viewing this website.
 
 ## Contact
 The final page is designed for clients and public enquires. The page contains following information:
@@ -82,4 +83,7 @@ I want my user to understand the benefits of yoga. And how to enrol into the tra
 ## Structure
 This project is divided into three main pages. The website was better organised after my mentoring session with my mentor.
 The website was structured such a way that the users can navigate to find relevant information according to their need.
+
+# Wireframes
+
 
