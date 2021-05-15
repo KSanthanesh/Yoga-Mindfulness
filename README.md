@@ -85,5 +85,9 @@ This project is divided into three main pages. The website was better organised 
 The website was structured such a way that the users can navigate to find relevant information according to their need.
 
 # Wireframes
+<details>
+<summary>Yoga Homepage</summary>
+<img src="assets/image/Yoga-Homepage.png" width="500">
+</details>
 
 
