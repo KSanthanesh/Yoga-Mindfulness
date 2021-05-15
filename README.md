@@ -1,9 +1,14 @@
 # Yoga Mindfulness
+<p align="center">
+  <img width="300" src="assets/image/Yoga-diff-screens.PNG">
+</p>
+
 ## Types of Content
 - [Introduction](#introduction "Goto Indroduction")
   - [Home](#home "Goto Home section")
   - [Online Yoga](#online-yoga "Goto Online Yoga")
   - [Contact](#contact "Goto Contact")
+- [Colours](#colours "Goto Colours Section")
 - [UX](#ux "Goto UX")
   - [Business Vision](#business-vision "Goto Business Vision" )
 - [Strategy](#strategy "Goto Strategy")
@@ -37,7 +42,9 @@ The online yoga covers the following section:
 - Timing table for yoga session
 - Header and footer same as in Homepage
 
-This page provides the client sufficient information to decide to join the yoga training
+This page provides the client sufficient information to decide to join the yoga training.
+
+## Colours
 
 ## Contact
 The final page is designed for clients and public enquires. The page contains following information:
