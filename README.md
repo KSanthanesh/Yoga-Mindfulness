@@ -17,6 +17,8 @@
 - [Wireframes](#wireframes)
 - [Technologies Used](#technologies-used)
 - [Testing](#testing)
+- [Deployment](#deployment)
+- [Acknowledgement](#acknowledgement)
 
 ## Introduction
 - This project will cover the origination of yoga, types of yoga and how that has grown into well known industry in last couple of years. 
