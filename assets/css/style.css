@@ -7,7 +7,7 @@
     --black: rgb(0, 0, 0);
     --margin: 10px 10em 10px 10em;
     --margin1: 10px 5em 10px 5em;
-    --margin2: 15px 2em 5px 2em;
+    --margin2: 15px 10px 5px 10px;
 }
 
 * {
@@ -469,6 +469,7 @@ td {
     }
 
     #menu {
+        width: 100%;
         clear: left;
         float: left;
         margin-left: 30px;
@@ -515,10 +516,13 @@ td {
     }
 
     .container div {
-        width: 40%;
+        width: 50%;
         height: 70%;
         margin: 5px;
 
+    }
+    #contact-details {
+        width: 100%;
     }
 
     #contact-box-left {
@@ -620,7 +624,7 @@ td {
     }
 
     #menu {
-        font-size: 100%;
+        font-size: 90%;
         float: left;
         margin-left: 0;
                
@@ -681,6 +685,10 @@ td {
 
     caption {
         font-size: 120%;
+    }
+    table {
+        width: 90%;
+        height: 100px;
     }
 
     #contact-header,
