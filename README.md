@@ -143,6 +143,8 @@ width="500">
 - Features Testing
 
   All the features tabs are Responding properly as per design.
+- Contact Form Testing
+  In the contact form was tested to makesure all the relevant information are filled before submitting.
 
   # Deployment
   These are the steps for deployment of my Yoga Mindfulness project using github.
@@ -152,6 +154,16 @@ width="500">
   - Followed by clicking "Save".
 
   The above steps have created the website URL "https://ksanthanesh.github.io/Yoga-Mindfulness/".
+
+  # Acknowledgement
+
+  - I would like to thank my mentor <b>Rohit Sharma</b> and my tutors <b>Kasia</b> and <b>Roman</b> for their helpfulness, constructive feedback and guidance when needed.
+  - I would like to thank the staff and students of Code Institute for their help.
+  - I also like to thank Slack Community for sharing the open discussion from various students.
+  - Inspiration of this project comes from current Covid-19 situation where people are looking for alternative for keeping body and mind healthy.
+  - The images on this site have been taken from Google Search and used only for education purpose to complete this project.
+  - Benefits are taken from Google Search.
+
 
 
 
