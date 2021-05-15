@@ -144,6 +144,15 @@ width="500">
 
   All the features tabs are Responding properly as per design.
 
+  # Deployment
+  These are the steps for deployment of my Yoga Mindfulness project using github.
+  - In Github Repositary, click on Settings tab.
+  - Then click on "Pages" tab in the left hand side sidebar.
+  - Then under "Source" click the "None" dropdown and select the "Master" branch.
+  - Followed by clicking "Save".
+
+  The above steps have created the website URL "https://ksanthanesh.github.io/Yoga-Mindfulness/".
+
 
 
 
