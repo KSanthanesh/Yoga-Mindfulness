@@ -28,23 +28,17 @@ header {
     background-color: var(--secondary-color);
 }
 
-
 h1 {
     font-family: Oswald, sans-serif;
     text-transform: uppercase;
     letter-spacing: 1px;
     color: var(--black);
-
 }
 
 #logo {
-
     font-size: 200%;
     margin-left: 30px;
-
 }
-
-
 
 /* navigation links */
 #menu {
@@ -57,13 +51,11 @@ h1 {
     float: right;
     list-style-type: none;
     margin-right: 30px;
-
 }
 
 #menu a {
     text-decoration: none;
     color: var(--black);
-
 }
 
 #menu a:hover {
@@ -75,9 +67,7 @@ h1 {
     height: 600px;
     width: 100%;
     overflow: hidden;
-
     position: relative;
-
 }
 
 #hero-image {
@@ -97,15 +87,12 @@ h1 {
 @keyframes hero-zoom {
     from {
         transform: scale(1);
-
     }
 
     to {
         transform: scale(1.1);
-
     }
 }
-
 
 #cover-text {
     font-size: 150%;
@@ -151,15 +138,20 @@ hr {
     width: 100%;
     margin: 5px 0;
 }
-
-#image-box-left img {
-    width: 100%;
-    height: 50%;
-
+.box{
+    display: flex;
+    margin-bottom: 20px;
 }
 
-.benefits>#image-box-left,
-#benefits-right {
+.image-box-left img {
+    width: 80%;
+    height: 300px;
+    border: 2px solid black;
+    border-radius: 30px;
+}
+
+.benefits>.image-box-left,
+.benefits-right {
     display: inline-block;
     margin-top: 5px;
     margin-bottom: 50px;
@@ -168,9 +160,7 @@ hr {
 .benefits h2 {
     font-size: 130%;
     padding-bottom: 10px;
-
 }
-
 
 .benefits li {
     font-size: 100%;
@@ -181,16 +171,10 @@ hr {
     width: 250%;
     height: 20px;
     text-align: center;
-
-
 }
 
-
-#benefits-right {
-
+.benefits-right {
     margin-left: 70px;
-
-
 }
 
 /* Testimonials */
@@ -203,7 +187,6 @@ hr {
     margin-left: 30px;
     margin-bottom: 30px;
     border-radius: 20px;
-
 }
 
 .container h2 {
@@ -221,16 +204,13 @@ hr {
 }
 
 #contact-box-left {
-
     width: 30%;
     color: var(--pink);
     font-size: 130%;
     font-weight: bold;
-
 }
 
 #contact-box-center {
-
     width: 30%;
     color: var(--pink);
     font-size: 130%;
@@ -238,53 +218,42 @@ hr {
 }
 
 #contact-box-right {
-
     width: 30%;
     color: var(--pink);
     font-size: 130%;
     font-weight: bold;
-
 }
 
 footer {
-    height: 200px;
+    height: 100px;
 }
 
 .social-networks {
-
     font-size: 24px;
-    margin-left: 150px;
-
 }
 
 .social-networks>li {
     display: inline-block;
-
 }
 
 .social-networks i {
     font-size: 160%;
-    padding: 50px;
+    margin-left: 90px;
     color: var(--pink);
 }
-
-
 
 /* Online-Yoga */
 .second-page {
     margin-bottom: 50px;
-
 }
 
-.underline>h2 {
+.underline > h2 {
     text-decoration: underline;
-
 }
 
 .yoga-types {
     text-align: center;
     font-size: 140%;
-
 }
 
 .yoga-types img {
@@ -303,7 +272,6 @@ footer {
     border: 2px solid black;
 }
 
-
 .rows2 {
     display: flex;
 }
@@ -315,7 +283,6 @@ footer {
     margin-top: 40px;
     margin-left: 15px;
 }
-
 
 .rows3 {
     display: flex;
@@ -352,7 +319,6 @@ table {
     border-collapse: collapse;
     width: 40%;
     margin: 10px;
-
 }
 
 th {
@@ -367,7 +333,6 @@ td {
 .table {
     display: flex;
     margin: 30px 0 30px 3em;
-
 }
 
 /* contact details */
@@ -381,7 +346,6 @@ td {
 #contact-p {
     font-size: 120%;
     margin-left: 100px;
-
 }
 
 .form-section {
@@ -391,7 +355,6 @@ td {
 .contact-form {
     margin: 20px 10% 0 0;
     color: #000;
-
     max-width: 300px;
     position: absolute;
     left: 20%;
@@ -438,7 +401,6 @@ td {
     background-color: var(--pink);
     color: var(--black);
     display: block;
-
 }
 
 .button:hover {
@@ -456,7 +418,6 @@ td {
     }
 
     #logo {
-
         font-size: 150%;
     }
 
@@ -467,51 +428,41 @@ td {
         margin-left: 30px;
         margin-bottom: 20px;
         line-height: 25px;
-
     }
 
     #hero-image {
         width: 100%;
         height: 500px;
         background-size: cover;
-
     }
 
     #cover-text {
         font-size: 100%;
         width: 150px;
         height: 70px;
-
         bottom: 100px;
         right: 20px;
-
     }
 
-    .benefits {
-        width: 100%;
-        height: 600px;
-
-    }
-
-    #image-box-left img {
-
+    .box {
         width: 90%;
-        height: 50%;
-        margin: 20px 0 20px 40px;
-
+        height: 600px;
+        display: block;
     }
 
-    #benefits-right {
-
-        width: 30%;
-
+    .image-box-left img {
+        width: 70%;
+        height: 300px;
+        margin: 20px 0 20px 40px;
+    }
+    .benefits-right {
+        margin-left: 40px;
     }
 
     .container div {
         width: 50%;
         height: 70%;
         margin: 5px;
-
     }
 
     #contact-details {
@@ -522,7 +473,6 @@ td {
     #contact-box-left {
         font-size: 100%;
         margin-left: 10px;
-
     }
 
     #contact-box-center {
@@ -538,16 +488,14 @@ td {
     .social-networks {
         margin-left: 0;
         margin-top: 20px;
-
     }
 
     .social-networks i {
-        padding: 20px;
+        padding: 20px;     
     }
 
-   
-
     /* online yoga media query for max 1200px */
+
     .second-page {
         margin-bottom: 90px;
     }
@@ -595,7 +543,6 @@ td {
     .table {
         display: block;
         margin: 0;
-
     }
 
     table {
@@ -614,15 +561,12 @@ td {
     #logo {
         font-size: 130%;
         margin-left: 0;
-
     }
 
     #menu {
         font-size: 90%;
         float: left;
         margin-left: 0;
-
-
     }
 
     h2 {
@@ -633,13 +577,13 @@ td {
         width: 150%;
         height: 500px;
         background-size: cover;
-
     }
 
-    #benefits-right {
+    .benefits-right {
         float: left;
-        margin-left: 0;
+        margin-left: 5px;
         width: 30%;
+        font-size: 100%;
     }
 
     .container div {
@@ -651,7 +595,6 @@ td {
     #contact-box-left {
         font-size: 90%;
         margin-left: 0;
-
     }
 
     #contact-box-center {
@@ -696,6 +639,5 @@ td {
     .text-input {
         width: 65%;
     }
-
 
 }
