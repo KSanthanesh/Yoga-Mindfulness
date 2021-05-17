@@ -596,9 +596,13 @@ td {
         .benefits-right {
             float: left;
             margin-left: 5px;
+            margin-bottom: 10px;
             width: 30%;
             font-size: 100%;
         }
+       .benefits-right > h2 {
+           font-size: 100%;
+       }
 
         .container div {
             width: 90%;
