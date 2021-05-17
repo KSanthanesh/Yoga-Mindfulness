@@ -44,14 +44,7 @@ h1 {
 
 }
 
-#sub-logo {
-    float: left;
-    color: var(--black);
-    font-family: 'Great Vibes', cursive;
-    margin-left: 30px;
-    margin-bottom: 10px;
 
-}
 
 /* navigation links */
 #menu {
@@ -464,8 +457,8 @@ td {
         margin: var(--margin1)
     }
 
-    #logo,
-    #sub-logo {
+    #logo {
+
         font-size: 150%;
     }
 
@@ -622,8 +615,7 @@ td {
         margin: var(--margin2);
     }
 
-    #logo,
-    #sub-logo {
+    #logo {
         font-size: 130%;
         margin-left: 0;
 
