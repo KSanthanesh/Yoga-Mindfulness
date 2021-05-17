@@ -318,36 +318,30 @@ footer {
 }
 
 caption {
-    font-size: 150%;
-    color: var(--pink)
-}
-
-table,
-td,
-th {
-    border: 2px solid black;
+    font-size: 130%;
+    color: var(--pink);
+    margin-top: 30px;
 }
 
 table {
-    border-collapse: collapse;
-    width: 40%;
-    margin: 10px;
+    width: 500px;
+
 }
 
 th {
-    height: 50px;
+    text-align: left;
 }
 
-td {
-    height: 30px;
-    padding: 5px;
+table,th,td {
+    border: 1px solid #000;
+    border-collapse: collapse;
 }
-
-.table {
-    display: flex;
-    margin: 30px 0 30px 3em;
+th,td {
+    padding: 10px;
 }
-
+.discounts > h3 {
+    color:rgb(255, 105, 180)
+}
 /* contact details */
 
 #contact-header {
