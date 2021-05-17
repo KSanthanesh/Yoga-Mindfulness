@@ -268,9 +268,7 @@ footer {
     color: var(--pink);
 }
 
-footer P {
-    text-align: center;
-}
+
 
 /* Online-Yoga */
 .second-page {
@@ -547,9 +545,7 @@ td {
         padding: 20px;
     }
 
-    footer p {
-        text-align: left;
-    }
+   
 
     /* online yoga media query for max 1200px */
     .second-page {
