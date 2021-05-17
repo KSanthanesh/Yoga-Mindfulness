@@ -26,8 +26,9 @@ body {
 /* heading and logo */
 header {
     background-color: var(--secondary-color);
-    
+
 }
+
 .line-height {
     margin-bottom: 25px;
 }
@@ -38,9 +39,11 @@ h1 {
     letter-spacing: 1px;
     color: var(--black);
 }
-.header{
-    display:flex;
+
+.header {
+    display: flex;
 }
+
 .header img {
     width: 15%;
     height: 40px;
@@ -152,7 +155,8 @@ hr {
     width: 100%;
     margin: 5px 0;
 }
-.box{
+
+.box {
     display: flex;
     margin-bottom: 20px;
 }
@@ -216,6 +220,7 @@ footer {
 
 .social-networks {
     font-size: 24px;
+    text-align: center
 }
 
 .social-networks>li {
@@ -224,15 +229,14 @@ footer {
 
 .social-networks i {
     font-size: 160%;
-    margin-left: 150px;
-    margin-top: 25px;
+    padding: 50px;
     color: var(--pink);
 
 }
 
 /* Online-Yoga */
 
-.underline > h2 {
+.underline>h2 {
     text-decoration: underline;
 }
 
@@ -245,7 +249,9 @@ footer {
     border: 2px solid black;
 }
 
-.rows1,.rows2,.rows3 {
+.rows1,
+.rows2,
+.rows3 {
     display: flex;
     margin-bottom: 20px;
 }
@@ -260,7 +266,7 @@ footer {
 .rows2 img {
     margin: 10px;
     border: 2px solid #000;
-   
+
 }
 
 /* Create three equal columns that sits next to each other */
@@ -268,7 +274,7 @@ footer {
     margin-left: 100px;
     margin-top: 20px;
     border: 2px solid black;
-    
+
 }
 
 .yoga-text {
@@ -278,7 +284,8 @@ footer {
 .yoga-text1 {
     margin-left: 100px;
 }
-.table{
+
+.table {
     display: flex;
     margin-bottom: 30px;
 }
@@ -298,20 +305,27 @@ th {
     text-align: center;
 }
 
-table,th,td {
+table,
+th,
+td {
     border: 1px solid #000;
     border-collapse: collapse;
 }
-th,td {
+
+th,
+td {
     padding: 10px;
 }
+
 .discounts {
     margin-left: 50px;
     margin-top: 50px;
 }
-.discounts > h3 {
-    color:rgb(255, 105, 180)
+
+.discounts>h3 {
+    color: rgb(255, 105, 180)
 }
+
 /* contact details */
 
 #contact-header {
@@ -326,11 +340,11 @@ th,td {
 }
 
 .form-section {
-    margin-bottom: 550px;
+    margin-bottom: 600px;
 }
 
 .contact-form {
-    margin: 20px 10% 0 0;
+    margin: 20px 30px 0 0;
     color: #000;
     max-width: 300px;
     position: absolute;
@@ -341,8 +355,8 @@ th,td {
 .text-input {
     background: transparent;
     color: #000;
-    width: 100%;
-    height: 25px;
+    width: 120%;
+    height: 30px;
     margin: 5px 0 20px 1px;
     border: 1px solid #000;
     border-radius: 5px;
@@ -355,17 +369,17 @@ th,td {
 #message {
     background: transparent;
     color: #000;
-    width: 100%;
+    width: 120%;
     height: 50Px;
     border: 1px solid #000;
     border-radius: 5px;
 }
 
-    .text-input:hover {
+.text-input:hover {
     border-color: var(--pink);
 }
 
-    .button {
+.button {
     margin-top: 20px;
     border-radius: 2px;
     padding: 15px 32px 15px 32px;
@@ -376,36 +390,43 @@ th,td {
     display: block;
 }
 
-    .button:hover {
+.button:hover {
     background-color: var(--secondary-color);
     color: var(--black);
 }
 
-    .contact {
+.contact {
     margin-bottom: 20px;
 }
-    .contact-details {
+
+.contact-details {
     display: flex;
+    margin-top: 10px;
 
 }
 
-    .contact-details i {
+.contact-details i {
     font-size: 130%;
 }
 
-    .contact-box-left {
-    margin-left: 80px;   
-    font-size: 130%;    
+.contact-box-left {
+    
+    font-size: 130%;
+    text-align: left;
+    margin-left: 60px;
 }
 
-    .contact-box-center {
-    margin-left: 80px;    
-    font-size: 130%;    
+.contact-box-center {   
+    font-size: 130%;
+    text-align: center;
+    margin-left: 10em;
 }
 
-    .contact-box-right {
-    margin-left: 80px;
-    font-size: 130%; 
+.contact-box-right {
+    
+    font-size: 130%;
+    text-align: right;
+    margin-left: 10em;
 }
 
 
@@ -415,7 +436,7 @@ th,td {
 
 @media screen and (max-width: 1200px) {
     body {
-        margin: var(--margin1)
+        margin: var(--margin1);
     }
 
     #logo {
@@ -456,6 +477,7 @@ th,td {
         height: 300px;
         margin: 20px 0 20px 40px;
     }
+
     .benefits-right {
         margin-left: 40px;
     }
@@ -464,26 +486,7 @@ th,td {
         width: 50%;
         height: 70%;
         margin: 5px;
-    }
-
-    .contact-details {        
-        display: flex;
-    }
-
-    .contact-box-left {
-        font-size: 100%;
-        margin-left: 50px;
-    }
-
-    .contact-box-center {
-        font-size: 100%;
-        margin-left: 50px;
-    }
-
-    .contact-box-right {
-        font-size: 100%;
-        margin-left: 50px;
-    }
+    }  
 
     .social-networks {
         margin-left: 0;
@@ -491,7 +494,7 @@ th,td {
     }
 
     .social-networks i {
-        padding: 20px;     
+        padding: 20px;
     }
 
     /* online yoga media query for max 1200px */
@@ -548,116 +551,124 @@ th,td {
     table {
         width: 70%;
     }
-
-  #mobile {
-      margin-left: 15px;
-
-  }
-
-/* For  medium screens sizes from 950px wide and down */
-
-@media screen and (max-width: 950px) {
-    body {
-        margin: var(--margin2);
-    }
-    
-    #logo {
-        font-size: 130%;
-        margin-left: 0;
-    }
-
-    #menu {
-        font-size: 90%;
-        float: left;
-        margin-left: 0;
-    }
-
-    h2 {
-        font-size: 110%;
-    }
-
-    #hero-image {
-        width: 150%;
-        height: 500px;
-        background-size: cover;
-    }
-
-    .benefits-right {
-        float: left;
+    #age {
         margin-left: 5px;
-        width: 30%;
-        font-size: 100%;
     }
 
-    .container div {
-        width: 90%;
-        height: 100px;
-    }
-
-
-    
-
-    .rows1,
-    .rows2 {
-        margin-bottom: 60px;
-    }
-
-    .rows3 {
-        
-        margin-bottom: 65px;
-    }
-    .rows3 img {
-        margin-left: 40px;
-    }
-    .yoga-text1 {
-        margin-left: 40px;
-    }
-
-    caption {
-        font-size: 120%;
-    }
-
-    table {
-        width: 90%;
-        height: 100px;
-    }
-
-    .contact-header,
-    .contact-p {
-        font-size: 100%;
-        margin-left: 0;
-    }
-
-    
-    .text-input {
-        width: 60%
-    }
-    .contact-details {
-        display: flex;
-        
-        
+    #mobile {
+        margin-left: 12px;
     }
     .contact-box-left {
-        font-size: 90%;
+        font-size: 120%;
         margin-left: 40px;
     }
-    .contact-box-center {
-        font-size: 90%;
-        margin-left: 40px;
+    .contact-box-right, .contact-box-center {
+        font-size: 120%;
+        margin-left: 5em;
     }
-    .contact-box-right {
-        font-size: 90%;
-        margin-left: 40px;
-    }
-    
-    .social-networks i {
-        font-size: 110%;
-        text-align: left;
-        margin-left: 50px;
-    }
-
 }
 
+    /* For  medium screens sizes from 950px wide and down */
+
+    @media screen and (max-width: 950px) {
+        body {
+            margin: var(--margin2);
+        }
+
+        #logo {
+            font-size: 130%;
+            margin-left: 0;
+        }
+
+        #menu {
+            font-size: 90%;
+            float: left;
+            margin-left: 0;
+        }
+
+        h2 {
+            font-size: 110%;
+        }
+
+        #hero-image {
+            width: 150%;
+            height: 500px;
+            background-size: cover;
+        }
+
+        .benefits-right {
+            float: left;
+            margin-left: 5px;
+            width: 30%;
+            font-size: 100%;
+        }
+
+        .container div {
+            width: 90%;
+            height: 100px;
+        }
 
 
 
+
+        .rows1,
+        .rows2 {
+            margin-bottom: 60px;
+        }
+
+        .rows3 {
+
+            margin-bottom: 65px;
+        }
+
+        .rows3 img {
+            margin-left: 40px;
+        }
+
+        .yoga-text1 {
+            margin-left: 40px;
+        }
+
+        caption {
+            font-size: 120%;
+        }
+
+        table {
+            width: 90%;
+            height: 100px;
+        }
+
+        .contact-header,
+        .contact-p {
+            font-size: 100%;
+            margin-left: 0;
+        }
+
+
+        .text-input {
+            width: 60%;
+        }
+
+        
+
+        .contact-box-left {
+            font-size: 90%;
+            margin-left: 10px;
+        }
+
+        .contact-box-center {
+            font-size: 90%;
+            margin-left: 50px;
+        }
+
+    .contact-box-right {
+            font-size: 90%;
+            margin-left: 50px;
+        }
+
+     .social-networks i {
+            font-size: 110%;
+            padding: 15px;
+        }
+
+    }
