@@ -326,7 +326,7 @@ th,td {
 }
 
 .form-section {
-    margin-bottom: 450px;
+    margin-bottom: 550px;
 }
 
 .contact-form {
@@ -341,23 +341,15 @@ th,td {
 .text-input {
     background: transparent;
     color: #000;
-    width: 80%;
+    width: 100%;
     height: 25px;
     margin: 5px 0 20px 1px;
     border: 1px solid #000;
     border-radius: 5px;
 }
 
-#age {
-    margin-left: 12px;
-}
 #gender {
-    margin-bottom: 10px;
-    
-}
-
-#email {
-    margin-left: 7px;
+    margin-bottom: 20px;
 }
 
 #message {
@@ -369,11 +361,11 @@ th,td {
     border-radius: 5px;
 }
 
-.text-input:hover {
+    .text-input:hover {
     border-color: var(--pink);
 }
 
-.button {
+    .button {
     margin-top: 20px;
     border-radius: 2px;
     padding: 15px 32px 15px 32px;
@@ -384,34 +376,34 @@ th,td {
     display: block;
 }
 
-.button:hover {
+    .button:hover {
     background-color: var(--secondary-color);
     color: var(--black);
 }
 
-.contact {
+    .contact {
     margin-bottom: 20px;
 }
-.contact-details {
+    .contact-details {
     display: flex;
 
 }
 
-.contact-details i {
+    .contact-details i {
     font-size: 130%;
 }
 
-.contact-box-left {
+    .contact-box-left {
     margin-left: 80px;   
     font-size: 130%;    
 }
 
-.contact-box-center {
+    .contact-box-center {
     margin-left: 80px;    
     font-size: 130%;    
 }
 
-.contact-box-right {
+    .contact-box-right {
     margin-left: 80px;
     font-size: 130%; 
 }
@@ -557,7 +549,10 @@ th,td {
         width: 70%;
     }
 
-}
+  #mobile {
+      margin-left: 15px;
+
+  }
 
 /* For  medium screens sizes from 950px wide and down */
 
@@ -633,8 +628,9 @@ th,td {
         margin-left: 0;
     }
 
+    
     .text-input {
-        width: 65%;
+        width: 60%
     }
     .contact-details {
         display: flex;
@@ -661,3 +657,7 @@ th,td {
     }
 
 }
+
+
+
+
