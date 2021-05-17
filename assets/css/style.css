@@ -581,7 +581,7 @@ td {
         }
 
         #menu {
-            font-size: 90%;
+            font-size: 85%;
             float: left;
             margin-left: 0;
         }
@@ -613,12 +613,12 @@ td {
 
         .rows1,
         .rows2 {
-            margin-bottom: 60px;
+            margin-bottom: 70px;
         }
 
         .rows3 {
 
-            margin-bottom: 65px;
+            margin-bottom: 60px;
         }
 
         .rows3 img {
@@ -646,10 +646,12 @@ td {
 
 
         .text-input {
-            width: 60%;
+            width: 80%;
         }
 
-        
+        #message {
+            width: 80%;
+        }
 
         .contact-box-left {
             font-size: 90%;
