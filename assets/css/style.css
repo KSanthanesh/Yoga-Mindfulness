@@ -28,6 +28,9 @@ header {
     background-color: var(--secondary-color);
     
 }
+.line-height {
+    margin-bottom: 25px;
+}
 
 h1 {
     font-family: Oswald, sans-serif;
@@ -158,7 +161,7 @@ hr {
     width: 80%;
     height: 300px;
     border: 2px solid black;
-    border-radius: 30px;
+    border-radius: 20%;
 }
 
 .benefits>.image-box-left,
@@ -256,9 +259,6 @@ footer {
 }
 
 /* Online-Yoga */
-.second-page {
-   margin-bottom: 25px;
-}
 
 .underline > h2 {
     text-decoration: underline;
@@ -273,40 +273,30 @@ footer {
     border: 2px solid black;
 }
 
-.rows1 {
+.rows1,.rows2,.rows3 {
     display: flex;
+    margin-bottom: 20px;
 }
 
 /* Create three equal columns that sits next to each other */
 .rows1 img {
-    flex: 30%;
-    margin-top: 30px;
-    margin-left: 10px;
-    border: 2px solid black;
-}
-
-.rows2 {
-    display: flex;
+    margin: 10px;
+    border: 2px solid #000;
 }
 
 /* Create three equal columns that sits next to each other */
 .rows2 img {
-    flex: 30%;
-    border: 2px solid black;
-    margin-top: 40px;
-    margin-left: 15px;
-}
-
-.rows3 {
-    display: flex;
+    margin: 10px;
+    border: 2px solid #000;
+   
 }
 
 /* Create three equal columns that sits next to each other */
 .rows3 img {
-    flex: 30%;
+    margin-left: 100px;
+    margin-top: 20px;
     border: 2px solid black;
-    margin-top: 60px;
-    margin-left: 60px;
+    
 }
 
 .yoga-text {
@@ -314,7 +304,11 @@ footer {
 }
 
 .yoga-text1 {
-    margin-left: 70px;
+    margin-left: 100px;
+}
+.table{
+    display: flex;
+    margin-bottom: 30px;
 }
 
 caption {
@@ -324,12 +318,12 @@ caption {
 }
 
 table {
-    width: 500px;
+    width: 450px;
 
 }
 
 th {
-    text-align: left;
+    text-align: center;
 }
 
 table,th,td {
@@ -338,6 +332,10 @@ table,th,td {
 }
 th,td {
     padding: 10px;
+}
+.discounts {
+    margin-left: 50px;
+    margin-top: 50px;
 }
 .discounts > h3 {
     color:rgb(255, 105, 180)
@@ -380,6 +378,10 @@ th,td {
 
 #age {
     margin-left: 12px;
+}
+#gender {
+    margin-bottom: 10px;
+    
 }
 
 #email {
