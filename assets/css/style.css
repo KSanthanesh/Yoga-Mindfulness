@@ -344,32 +344,33 @@ td {
 }
 
 .contact-form {
-    margin: 20px 30px 0 0;
+    
     color: #000;
-    max-width: 300px;
+    max-width: 400px;
     position: absolute;
     left: 20%;
-    padding: 10px;
+    padding: 50px;
 }
 
 .text-input {
     background: transparent;
     color: #000;
-    width: 120%;
+    width: 100%;
     height: 30px;
-    margin: 5px 0 20px 1px;
+    margin: 5px 0 10px 1px;
     border: 1px solid #000;
     border-radius: 5px;
 }
 
 #gender {
-    margin-bottom: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 #message {
     background: transparent;
     color: #000;
-    width: 120%;
+    width: 100%;
     height: 50Px;
     border: 1px solid #000;
     border-radius: 5px;
@@ -551,12 +552,8 @@ td {
     table {
         width: 70%;
     }
-    #age {
-        margin-left: 5px;
-    }
-
-    #mobile {
-        margin-left: 12px;
+    .text-input {
+        width: 100%
     }
     .contact-box-left {
         font-size: 120%;
@@ -583,7 +580,7 @@ td {
         #menu {
             font-size: 85%;
             float: left;
-            margin-left: 0;
+            margin: 0;
         }
 
         h2 {
@@ -648,6 +645,10 @@ td {
         .text-input {
             width: 80%;
         }
+        
+        #email {
+            margin-left: 5px;
+        }
 
         #message {
             width: 80%;
@@ -655,22 +656,40 @@ td {
 
         .contact-box-left {
             font-size: 90%;
-            margin-left: 10px;
+            text-align: left;
+            
+            
         }
 
         .contact-box-center {
             font-size: 90%;
-            margin-left: 50px;
+            text-align: center;
+            
+            
         }
 
     .contact-box-right {
-            font-size: 90%;
-            margin-left: 50px;
+            font-size: 88%;
+            text-align: right;
+            
         }
 
      .social-networks i {
             font-size: 110%;
             padding: 15px;
-        }
+     }
 
     }
+    /* For  smaller screens sizes from 500px wide and down */
+    @media screen and (max-width: 500px) {
+    .contact-box-left {
+        margin-left: 0;
+    }
+    .contact-box-center {
+        margin-left: 20px;
+    }
+    .contact-box-right {
+        margin-left: 20px;
+    }
+
+}
