@@ -26,6 +26,7 @@ body {
 /* heading and logo */
 header {
     background-color: var(--secondary-color);
+    
 }
 
 h1 {
@@ -33,6 +34,16 @@ h1 {
     text-transform: uppercase;
     letter-spacing: 1px;
     color: var(--black);
+}
+.header{
+    display:flex;
+}
+.header img {
+    width: 15%;
+    height: 40px;
+    padding: 0;
+    border: 1px solid black;
+    border-radius: 50%;
 }
 
 #logo {
@@ -42,7 +53,7 @@ h1 {
 
 /* navigation links */
 #menu {
-    font-size: 130%;
+    font-size: 120%;
     letter-spacing: 1px;
     font-weight: bold;
 }
@@ -50,7 +61,7 @@ h1 {
 #menu li {
     float: right;
     list-style-type: none;
-    margin-right: 30px;
+    margin-right: 40px;
 }
 
 #menu a {
@@ -64,7 +75,7 @@ h1 {
 
 /* hero image */
 #hero-outer {
-    height: 600px;
+    height: 550px;
     width: 100%;
     overflow: hidden;
     position: relative;
@@ -116,7 +127,7 @@ h1 {
 }
 
 #originate-yoga {
-    margin-top: 10px;
+    margin-top: 5px;
     margin-bottom: 50px;
 }
 
@@ -238,8 +249,10 @@ footer {
 
 .social-networks i {
     font-size: 160%;
-    margin-left: 90px;
+    margin-left: 150px;
+    margin-top: 25px;
     color: var(--pink);
+
 }
 
 /* Online-Yoga */
