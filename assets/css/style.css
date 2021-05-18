@@ -1,13 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
 
 :root {
-    --primary-color:#fff0f5;
-    --secondary-color:#ffb6c1;
-    --pink:rgb(255, 105, 180);
-    --black:rgb(0, 0, 0);
-    --margin:10px 10em 10px 10em;
-    --margin1:10px 5em 10px 5em;
-    --margin2:15px 10px 5px 10px;
+    --primary-color: #fff0f5;
+    --secondary-color: #ffb6c1;
+    --pink: rgb(255, 105, 180);
+    --black: rgb(0, 0, 0);
+    --margin: 10px 10em 10px 10em;
+    --margin1: 10px 5em 10px 5em;
+    --margin2: 15px 10px 5px 10px;
 }
 
 * {
@@ -340,7 +340,7 @@ td {
 }
 
 .contact-form {
-    
+
     color: #000;
     max-width: 400px;
     position: absolute;
@@ -399,7 +399,6 @@ td {
 .contact-details {
     display: flex;
     margin-top: 10px;
-
 }
 
 .contact-details i {
@@ -407,25 +406,21 @@ td {
 }
 
 .contact-box-left {
-    
     font-size: 130%;
     text-align: left;
     margin-left: 60px;
 }
 
-.contact-box-center {   
+.contact-box-center {
     font-size: 130%;
     text-align: center;
     margin-left: 10em;
 }
-
 .contact-box-right {
-    
     font-size: 130%;
     text-align: right;
     margin-left: 10em;
 }
-
 
 /* Media queries */
 
@@ -483,7 +478,7 @@ td {
         width: 50%;
         height: 70%;
         margin: 5px;
-    }  
+    }
 
     .social-networks {
         margin-left: 0;
@@ -548,146 +543,144 @@ td {
     table {
         width: 70%;
     }
+
     .text-input {
         width: 100%
     }
+
     .contact-box-left {
         font-size: 120%;
         margin-left: 40px;
     }
-    .contact-box-right, .contact-box-center {
+
+    .contact-box-right,
+    .contact-box-center {
         font-size: 120%;
         margin-left: 5em;
     }
 }
 
-    /* For  medium screens sizes from 950px wide and down */
+/* For  medium screens sizes from 950px wide and down */
 
-    @media screen and (max-width: 950px) {
-        body {
-            margin: var(--margin2);
-        }
+@media screen and (max-width: 950px) {
+    body {
+        margin: var(--margin2);
+    }
 
-        #logo {
-            font-size: 130%;
-            margin-left: 0;
-        }
+    #logo {
+        font-size: 130%;
+        margin-left: 0;
+    }
 
-        #menu {
-            font-size: 85%;
-            float: left;
-            margin: 0;
-        }
+    #menu {
+        font-size: 85%;
+        float: left;
+        margin: 0;
+    }
 
-        h2 {
-            font-size: 110%;
-        }
+    h2 {
+        font-size: 110%;
+    }
 
-        #hero-image {
-            width: 150%;
-            height: 500px;
-            background-size: cover;
-        }
+    #hero-image {
+        width: 150%;
+        height: 500px;
+        background-size: cover;
+    }
 
-        .benefits-right {
-            float: left;
-            margin-left: 5px;
-            margin-bottom: 10px;
-            width: 30%;
-            font-size: 100%;
-        }
-       .benefits-right > h2 {
-           font-size: 100%;
-       }
+    .benefits-right {
+        float: left;
+        margin-left: 5px;
+        margin-bottom: 10px;
+        width: 30%;
+        font-size: 100%;
+    }
 
-        .container div {
-            width: 90%;
-            height: 100px;
-        }
+    .benefits-right>h2 {
+        font-size: 100%;
+    }
 
+    .container div {
+        width: 90%;
+        height: 100px;
+    }
 
+    .rows1,
+    .rows2 {
+        margin-bottom: 70px;
+    }
 
+    .rows3 {
+        margin-bottom: 60px;
+    }
 
-        .rows1,
-        .rows2 {
-            margin-bottom: 70px;
-        }
+    .rows3 img {
+        margin-left: 40px;
+    }
 
-        .rows3 {
+    .yoga-text1 {
+        margin-left: 40px;
+    }
 
-            margin-bottom: 60px;
-        }
+    caption {
+        font-size: 120%;
+    }
 
-        .rows3 img {
-            margin-left: 40px;
-        }
+    table {
+        width: 90%;
+        height: 100px;
+    }
 
-        .yoga-text1 {
-            margin-left: 40px;
-        }
+    .contact-header,
+    .contact-p {
+        font-size: 100%;
+        margin-left: 0;
+    }
 
-        caption {
-            font-size: 120%;
-        }
+    .text-input {
+        width: 80%;
+    }
 
-        table {
-            width: 90%;
-            height: 100px;
-        }
+    #email {
+        margin-left: 5px;
+    }
 
-        .contact-header,
-        .contact-p {
-            font-size: 100%;
-            margin-left: 0;
-        }
+    #message {
+        width: 80%;
+    }
 
+    .contact-box-left {
+        font-size: 90%;
+        text-align: left;
+    }
 
-        .text-input {
-            width: 80%;
-        }
-        
-        #email {
-            margin-left: 5px;
-        }
-
-        #message {
-            width: 80%;
-        }
-
-        .contact-box-left {
-            font-size: 90%;
-            text-align: left;
-            
-            
-        }
-
-        .contact-box-center {
-            font-size: 90%;
-            text-align: center;
-            
-            
-        }
+    .contact-box-center {
+        font-size: 90%;
+        text-align: center;
+    }
 
     .contact-box-right {
-            font-size: 88%;
-            text-align: right;
-            
-        }
-
-     .social-networks i {
-            font-size: 110%;
-            padding: 15px;
-     }
-
+        font-size: 88%;
+        text-align: right;
     }
-    /* For  smaller screens sizes from 500px wide and down */
-    @media screen and (max-width: 500px) {
+
+    .social-networks i {
+        font-size: 110%;
+        padding: 15px;
+    }
+
+}
+
+/* For  smaller screens sizes from 500px wide and down */
+@media screen and (max-width: 500px) {
     .contact-box-left {
         margin-left: 0;
     }
+
     .contact-box-center {
         margin-left: 20px;
     }
+
     .contact-box-right {
         margin-left: 20px;
     }
