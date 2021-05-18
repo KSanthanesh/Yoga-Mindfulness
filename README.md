@@ -8,13 +8,16 @@
   - [Home](#home "Goto Home section")
   - [Online Yoga](#online-yoga "Goto Online Yoga")
   - [Contact](#contact "Goto Contact")
-- [Colours](#colours "Goto Colours Section")
-- [UX](#ux "Goto UX")
-  - [Business Vision](#business-vision "Goto Business Vision" )
-- [Strategy](#strategy "Goto Strategy")
+- [Strategy](#strategy "Goto Strategy")   
+  - [UX](#ux "Goto UX")
+  - [Business Vision](#business-vision "Goto Business Vision")
+  - [Purpose of Website](#purpose-of-website)
 - [Scope](#scope "Goto Scope")
+   - [Features](#features)
+   - [Future Feature](#future-feature)
 - [Structure](#structure "Goto Structure")
-- [Wireframes](#wireframes)
+   - [Wireframes](#wireframes)
+   - [Colours](#colours "Goto Colours Section")
 - [Technologies Used](#technologies-used)
 - [Testing](#testing)
 - [Deployment](#deployment)
@@ -29,7 +32,7 @@
 
 - The website covers all the screen types, such as Pc,Laptop,Tablet and Mobile.
 
-## Home
+### Home
 The home page covers the following section:
 - Introduction of Yoga
 - Hero Image
@@ -38,7 +41,7 @@ The home page covers the following section:
 - Testimonials
 - Social media
 
-## Online Yoga
+### Online Yoga
 The online yoga covers the following section:
 - About the organisation
 - Types of yoga and their description
@@ -48,10 +51,7 @@ The online yoga covers the following section:
 
 This page provides the client sufficient information to decide to join the yoga training.
 
-## Colours
-I have used warm and light colours to create pleasant experience for those people to viewing this website.
-
-## Contact
+### Contact
 The final page is designed for clients and public enquires. The page contains following information:
 - Name
 - Gender
@@ -63,7 +63,10 @@ The final page is designed for clients and public enquires. The page contains fo
 
 This is important for the yoga centre to improve their services and enhance future Business growth.
 
-## UX
+## Strategy
+The website covers all the screen types, such as Pc, Laptop, Tablet and Mobile. The website is easily navigate to all the sections.
+
+### UX
 
 - As a user i want to learn more about when and where yoga was originated
 - As a user i would like to know the benefits of the yoga
@@ -78,17 +81,20 @@ The website is created to communicate to the public, the benefits of yoga and ho
 The yoga training is designed to learn and follow via online.
 Very experienced and well trained instructors are conducting the training session. The online training is designed for all age groups above 6 years old. The training is priced at affordable rate. The centre appreciate every feedback from the client.
 
-## Strategy
-The website covers all the screen types, such as Pc, Laptop, Tablet and Mobile. The website is easily navigate to all the sections.
+### Purpose of Website
 
 ## Scope
 I want my user to understand the benefits of yoga. And how to enrol into the training session.
+
+### Features
+
+### Future Feature
 
 ## Structure
 This project is divided into three main pages. The website was better organised after my mentoring session with my mentor.
 The website was structured such a way that the users can navigate to find relevant information according to their need.
 
-# Wireframes
+### Wireframes
 <details>
 <summary>Yoga Homepage</summary>
 <img src="docs/wireframes/Yoga-Homepage1.png" width="500">
@@ -118,7 +124,10 @@ width="500">
 
 </details>
 
-# Technologies Used
+### Colours
+I have used warm and light colours to create pleasant experience for those people to viewing this website.
+
+## Technologies Used
 - HTML
 - CSS
 - GitHub
@@ -128,7 +137,7 @@ width="500">
 - Font Awesome
 - Responsive design
 
-# Testing
+## Testing
 - W3 Markup Validation Service
 - W3 CSS Validation Service
 - Browser Testing
@@ -149,7 +158,7 @@ width="500">
 
   Contact form was tested to makesure all the relevant information are filled before submitting.
 
-  # Deployment
+  ## Deployment
   These are the steps for deployment of my Yoga Mindfulness project using github.
   - In Github Repositary, click on Settings tab.
   - Then click on "Pages" tab in the left hand side sidebar.
