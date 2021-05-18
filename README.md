@@ -82,6 +82,7 @@ The yoga training is designed to learn and follow via online.
 Very experienced and well trained instructors are conducting the training session. The online training is designed for all age groups above 6 years old. The training is priced at affordable rate. The centre appreciate every feedback from the client.
 
 ### Purpose of Website
+Inspiration of this project comes from current Covid-19 situation where people are looking for alternative for keeping body and mind healthy.
 
 ## Scope
 I want my user to understand the benefits of yoga. And how to enrol into the training session.
