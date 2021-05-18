@@ -77,8 +77,8 @@ The website covers all the screen types, such as Pc, Laptop, Tablet and Mobile. 
 - As a user i would like to know how to query my question to yoga centre.
 
 ### Business Vision
-The website is created to communicate to the public, the benefits of yoga and how to enrol in to the yoga training session.
-The yoga training is designed to learn and follow via online.
+The website is created to communicate to the public, the benefits of yoga and how to enrol in to the yoga training session.<br>
+The yoga training is designed to learn and follow via online.<br>
 Very experienced and well trained instructors are conducting the training session. The online training is designed for all age groups above 6 years old. The training is priced at affordable rate. The centre appreciate every feedback from the client.
 
 ### Purpose of Website
@@ -88,14 +88,48 @@ Inspiration of this project comes from current Covid-19 situation where people a
 I want my user to understand the benefits of yoga. And how to enrol into the training session.
 
 ### Features
+Header and Footer are commenly used in all pages.
 
-### Future Feature
+Header:<br>
+Header is consists of Name and Logo and located on the left side of the page. There are three menu options are available on the right side. The three menu options used are Home, Online Yoga and Contact.
+
+Footer:<br>
+Footer is consists of Social Networks icons such as Facebook, Twitter, Youtube and Instagram.
+
+Home Page:<br>
+Hero image is at the top of the page, with animation of 7 seconds. Origination of yoga is described below the hero image. It also described why yoga is the better choice for Covid situation.<br>
+Followed by Lists of benefits of yoga with image and finally the page finishes with Testimonials from valuable customers.
+
+Online Yoga:<br>
+Second page is covers the topic of Yoga Mindfulness. This page covers about us, advise from yoga master and dedicating time to practice yoga.<br>
+Followed by Types of yoga, there are 8 types of common yogas with images described in this page. the page finishes with date, time and Price list.
+
+Contact:<br>
+The final page covers enquiry form and contact details.
+<br>
+Contact form consists of the following fields and validation.
+- Name: text, Mandatory.
+- Gender: dropdown menu to select male or female, Mandatory.
+- Age: type the number or select the number, Mandatory.
+- phone: number text, Mandatory.
+- Email: Email address is Mandatory.
+- Message: text, Mandatory.
+- Button to submit.
+Thanks message is displayed after submitting.<br>
+Finally it covers contact details such as Phone number, email and Address of Yoga Mindfulness.
+
+### Future Features
+- videos of each yoga type will help the viewers to understand the benefit of yoga.
+- Live chat option will helpful for customers to gain confidence about our website and services.
+- We like to use Paypal, Credit and Debit card services in future.
 
 ## Structure
 This project is divided into three main pages. The website was better organised after my mentoring session with my mentor.
 The website was structured such a way that the users can navigate to find relevant information according to their need.
 
 ### Wireframes
+
+Balsamiq Wireframes used for this website.
 <details>
 <summary>Yoga Homepage</summary>
 <img src="docs/wireframes/Yoga-Homepage1.png" width="500">
