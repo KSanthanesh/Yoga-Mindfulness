@@ -164,13 +164,15 @@ I have used warm and light colours to create pleasant experience for those peopl
 
 ## Technologies Used
 - HTML
+
 - CSS
 - GitHub
+-to save the project code and host the live project.
 - GitPod
 - Bootstrap
 - Google Fonts
-- Font Awesome
-- Responsive design
+- Font Awesome - icons used throughout the site
+- Responsive design - To generate the mockup image
 
 ## Testing
 - W3 Markup Validation Service
