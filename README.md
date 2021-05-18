@@ -1,6 +1,6 @@
 # Yoga Mindfulness
 <p align="left">
-  <img width="400" src="assets/image/Yoga-diff-screens.PNG">
+  <img width="400" src="docs/images/Yoga-diff-screens1.PNG">
 </p>
 
 ## Types of Content
@@ -91,29 +91,29 @@ The website was structured such a way that the users can navigate to find releva
 # Wireframes
 <details>
 <summary>Yoga Homepage</summary>
-<img src="assets/image/Yoga-Homepage.png" width="500">
+<img src="docs/wireframes/Yoga-Homepage1.png" width="500">
 </details>
 <details>
 <summary>Yoga Homepage Mobile View</summary>
-<img src="assets/image/Yoga-Homepage-Mobile.png" width="500">
+<img src="docs/wireframes/Yoga-Homepage1-Mobile.png" width="500">
 </details>
 <details>
 <summary>Online Yoga</summary>
-<img src="assets/image/Online-Yoga.png" width="500">
+<img src="docs/wireframes/Online-Yoga1.png" width="500">
 </details>
 <details>
 <summary>Online Yoga Mobile View</summary>
-<img src="assets/image/Online-Yoga-Mobile.png" 
+<img src="docs/wireframes/Online-Yoga-Mobile1.png" 
 width="500">
 </details>
 <details>
 <summary>Contact</summary>
-<img src="assets/image/Contact.png" 
+<img src="docs/wireframes/Contact1.png" 
 width="500">
 </details>
 <details>
 <summary>Contact Mobile View</summary>
-<img src="assets/image/Contact-Mobile.png" 
+<img src="docs/wireframes/Contact-Mobile1.png" 
 width="500">
 
 </details>
