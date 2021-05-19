@@ -173,8 +173,8 @@ I have used warm and light colours to create pleasant experience for those peopl
 - Responsive design - To generate the mockup image.
 
 ## Testing
-- W3 Markup Validation Service
-- W3 CSS Validation Service
+- W3 Markup Validation Service- To validate HTML document, i used Validate by direct input, some errors shown, and then i fixed the errors. 
+- W3 CSS Validation Service- To validate HTML document, i used validate by direct input, no errors shown, but 8 warning shown in the W3 validation page.
 - Browser Testing
 
      I have used the most common browser to test my website,
@@ -185,7 +185,7 @@ I have used warm and light colours to create pleasant experience for those peopl
     All the pages Responsive and displaying the website in order.
 - Mobile Testing
 
-  I have verified the website in various mobiles and makesure the website works properly.
+  I have verified the website in various mobiles like Galaxy S9,S3, i phone 6,7,8 and xiaomi max3 and makesure the website works properly.
 - Features Testing
 
   All the features tabs are Responding properly as per design.
