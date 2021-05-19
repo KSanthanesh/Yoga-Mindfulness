@@ -163,16 +163,14 @@ width="500">
 I have used warm and light colours to create pleasant experience for those people to viewing this website.
 
 ## Technologies Used
-- HTML
-
-- CSS
-- GitHub
--to save the project code and host the live project.
-- GitPod
-- Bootstrap
-- Google Fonts
-- Font Awesome - icons used throughout the site
-- Responsive design - To generate the mockup image
+- HTML-used for to create the website.
+- CSS- used for style the website.
+- GitHub- to save the project code and host the live project.
+- GitPod- is an open source platform for automated and ready-to-code.
+- Bootstrap- used for Quick and responsive design.
+- Google Fonts-used for the website looks more beautiful,fast and great typography
+- Font Awesome - icons used throughout the site.
+- Responsive design - To generate the mockup image.
 
 ## Testing
 - W3 Markup Validation Service
