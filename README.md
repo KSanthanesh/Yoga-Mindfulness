@@ -194,7 +194,7 @@ I have used warm and light colours to create pleasant experience for those peopl
   Contact form was tested to makesure all the relevant information are filled before submitting.
 
   ## Deployment
-  Used Gitpod Workspace for coding. have to do git add for add files or remove files and do git commit for reasoning and do the git push for git hub repositary website.<br>   
+  Used Gitpod Workspace for coding. To preview the browser window need to type "python3 -m http.server" in the terminal window at the bottom.Afterthat, have to do git add for add files or remove files and do git commit for reasoning and do the git push for git hub repositary website.<br>   
   Below the steps for deployment of my Yoga Mindfulness project using github.
   - In Github Repositary, click on Settings tab.
   - Then click on "Pages" tab in the left hand side sidebar.
