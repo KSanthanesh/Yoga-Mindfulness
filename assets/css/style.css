@@ -17,7 +17,7 @@
 }
 
 body {
-    font-family: Lato, sans-serif;
+    font-family: 'Laila', sans-serif;;
     font-weight: 300;
     background-color: var(--primary-color);
     margin: var(--margin)
@@ -33,9 +33,9 @@ header {
 }
 
 h1 {
-    font-family: Oswald, sans-serif;
+    font-family: 'Laila', sans-serif;;
     text-transform: uppercase;
-    letter-spacing: 1px;
+    
     color: var(--black);
 }
 
@@ -237,7 +237,7 @@ hr {
 /* Testimonials */
 .container div {
     display: inline-block;
-    width: 28%;
+    width: 27%;
     height: 130px;
     border: 1px solid black;
     padding: 10px 10px 30px 10px;
