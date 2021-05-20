@@ -311,7 +311,7 @@ div.col-1 img {
     margin-bottom: 10px;
 }
 div.yoga-text {
-    padding: 0;
+    padding: 10px;
     text-align: left;
   }
   
@@ -324,8 +324,8 @@ div.yoga-text {
     float: left;
     width: 30%;
   }
-  .yoga-center {
-    margin-left: 60px;
+.row-center {
+    margin-left: 80px;
 }
 
 
@@ -621,14 +621,18 @@ td {
         width: 90%;
         height: 100px;
     }
-    .gallery {
-        height: 90em;
-    }
+    
     .rows1 {
         width: 50%;
         margin-bottom: 5px;
     }
     
+    .row-center {
+        margin-left: 0;
+    }
+    .yoga-text {
+        font-size: 80%;
+    }
     
     
     
