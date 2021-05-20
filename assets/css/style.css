@@ -237,8 +237,8 @@ hr {
 /* Testimonials */
 .container div {
     display: inline-block;
-    width: 27%;
-    height: 140px;
+    width: 30%;
+    height: 200px;
     border: 1px solid black;
     padding: 10px 10px 30px 10px;
     margin-left: 30px;
@@ -325,7 +325,7 @@ div.yoga-text {
     width: 30%;
   }
   .yoga-center {
-    margin-left: 80px;
+    margin-left: 60px;
 }
 
 
@@ -629,9 +629,9 @@ td {
         margin-bottom: 5px;
     }
     
-    .yoga-text > p {
-        font-size: 90%;
-    }
+    
+    
+    
    
 
     caption {
