@@ -211,13 +211,23 @@ hr {
 
 .benefits li {
     font-size: 100%;
-    display: block;
-    border: 1px solid black;
-    margin-bottom: 1px;
-    border-radius: 10px;
-    width: 250%;
-    height: 20px;
+    position: relative;
+}
+.benefits ul li {
+    list-style: none;
+    padding: 5px 50px;
+    background: honeydew;
+    box-shadow: 0 5px 25px hotpink;
+    transition: transform 0.5s;
     text-align: center;
+    
+}
+.benefits ul li:hover {
+    transform: scale(1.1);
+    z-index: 100;
+    background: #000;
+    box-shadow:lavenderblush;
+    color: whitesmoke;
 }
 
 .benefits-right {
@@ -490,7 +500,7 @@ td {
 
     .box {
         width: 90%;
-        height: 600px;
+        height: 650px;
         display: block;
     }
 
@@ -500,8 +510,8 @@ td {
         margin: 20px 0 20px 40px;
     }
 
-    .benefits-right {
-        margin-left: 40px;
+    .benefits-right ul li {
+        padding: 5px, 5em;
     }
 
     .container div {
@@ -620,9 +630,9 @@ td {
 
     .benefits-right {
         float: left;
-        margin-left: 5px;
+        margin-left: 10px;
         margin-bottom: 10px;
-        width: 30%;
+        width: 80%;
         font-size: 100%;
     }
 
