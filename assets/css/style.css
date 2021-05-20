@@ -631,7 +631,7 @@ td {
         margin-left: 0;
     }
     .yoga-text {
-        font-size: 75%;
+        font-size: 80%;
     }
     
    div.yoga-text  {
@@ -705,5 +705,13 @@ td {
     .container div {
         height: 100%;
     }
+    
+    
+    
+    .yoga-text {
+        font-size: 70%;
+    }
+    
+   
 
 }
