@@ -392,8 +392,7 @@ td {
     color: #000;
     max-width: 400px;
     position: absolute;
-    left: 20%;
-    padding: 50px;
+   margin-top: 50px;
 }
 
 .text-input {
@@ -401,9 +400,9 @@ td {
     color: #000;
     width: 100%;
     height: 30px;
-    margin: 5px 0 10px 1px;
+    margin: 5px 0 15px 1px;
     border: 1px solid #000;
-    border-radius: 5px;
+    border-radius: 10px;
 }
 
 #gender {
@@ -417,7 +416,7 @@ td {
     width: 100%;
     height: 50Px;
     border: 1px solid #000;
-    border-radius: 5px;
+    border-radius: 10px;
 }
 
 .text-input:hover {
@@ -462,12 +461,12 @@ td {
 .contact-box-center {
     font-size: 130%;
     text-align: center;
-    margin-left: 10em;
+    margin-left: 8em;
 }
 .contact-box-right {
     font-size: 130%;
     text-align: right;
-    margin-left: 10em;
+    margin-left: 8em;
 }
 
 /* Media queries */
