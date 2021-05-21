@@ -349,15 +349,6 @@ td {
     padding: 10px;
 }
 
-.discounts {
-    margin-left: 50px;
-    margin-top: 50px;
-}
-
-.discounts>h3 {
-    color: rgb(255, 105, 180)
-}
-
 /* contact details */
 
 #contact {
@@ -548,11 +539,11 @@ td {
 
     .table {
         display: block;
-        margin: 0;
+        margin-left: 5px;
     }
 
     table {
-        width: 70%;
+        width: 60%;
     }
 
     #contact {
@@ -729,6 +720,15 @@ td {
 
     .yoga-text {
         font-size: 70%;
+    }
+    table {
+        width: 90%;
+        height: auto;
+        margin-right: 0;
+    }
+    th, td {
+        padding: 3px;
+        font-size: 90%;
     }
 
     #contact {
