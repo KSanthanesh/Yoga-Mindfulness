@@ -619,7 +619,7 @@ td {
 
     .container div {
         width: 90%;
-        height: 100px;
+        height: 130px;
     }
     
     .rows1 {
@@ -657,6 +657,9 @@ td {
 
     .text-input {
         width: 80%;
+    }
+    #age {
+        margin-left: 5px;
     }
 
     #email {
