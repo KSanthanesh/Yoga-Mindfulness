@@ -20,6 +20,7 @@
    - [Colours](#colours "Goto Colours Section")
 - [Technologies Used](#technologies-used)
 - [Testing](#testing)
+- [Bugs](#bugs)
 - [Deployment](#deployment)
 - [Acknowledgement](#acknowledgement)
 
@@ -97,8 +98,8 @@ Footer:<br>
 Footer is consists of Social Networks icons such as Facebook, Twitter, Youtube and Instagram.
 
 Home Page:<br>
-Hero image is at the top of the page, with animation of 7 seconds. Origination of yoga is described below the hero image. It also described why yoga is the better choice for Covid situation.<br>
-Followed by Lists of benefits of yoga with image and finally the page finishes with Testimonials from valuable customers.
+Hero image is at the top of the page, with animation of 7 seconds. I have added the tooltip function in Hero-image cover text to enhance the message, the importance of Surya Namaskar.<br> Origination of yoga is described below the hero image. It also described why yoga is the better choice for Covid situation.<br>
+Followed by Lists of benefits of yoga with image, also enhance the benefit of yoga by using of hover. And finally the page finishes with Testimonials from valuable customers.
 
 Online Yoga:<br>
 Second page is covers the topic of Yoga Mindfulness. This page covers about us, advise from yoga master and dedicating time to practice yoga.<br>
@@ -192,6 +193,9 @@ I have used warm and light colours to create pleasant experience for those peopl
 - Contact Form Testing
 
   Contact form was tested to makesure all the relevant information are filled before submitting.
+  ## Bugs
+  I have difficulties in aligning the pictures, by using the information of Youtube, Google and W3 School, managed to resolve the problem.<br>
+  Next problem faced was thank you message did not display when the customer submit the enquiry. This problem was resolved with th help of Tutor and Mentor.
 
   ## Deployment
   Used Gitpod Workspace for coding. To preview the browser window need to type "python3 -m http.server" in the terminal window at the bottom.Afterthat, have to do git add for add files or remove files and do git commit for reasoning and do the git push for git hub repositary website.<br>   
