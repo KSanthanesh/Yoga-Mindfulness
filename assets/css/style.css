@@ -372,6 +372,16 @@ td {
 
 /* contact details */
 
+
+
+#contact {
+    background: url(../image/pexels-dids-1382902.jpg) no-repeat center center ;
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+    margin-top: 50px;
+}
+
 #contact-header {
     font-size: 150%;
     margin-left: 100px;
@@ -383,16 +393,15 @@ td {
     margin-left: 100px;
 }
 
-.form-section {
-    margin-bottom: 600px;
-}
+
 
 .contact-form {
 
     color: #000;
     max-width: 400px;
     position: absolute;
-   margin-top: 50px;
+    left: 20%;
+    
 }
 
 .text-input {
@@ -420,7 +429,7 @@ td {
 }
 
 .text-input:hover {
-    border-color: var(--pink);
+    border-color: red;
 }
 
 .button {
@@ -545,11 +554,7 @@ td {
     .yoga-types img {
         width: 90%;
         height: 50%
-    }
-
-    
-
-    
+    } 
 
     .table {
         display: block;
@@ -559,9 +564,15 @@ td {
     table {
         width: 70%;
     }
+    #contact {
+        width: 100%;
+    }
 
     .text-input {
         width: 100%
+    }
+    #mobile {
+        margin-left: 5px;
     }
 
     .contact-box-left {
@@ -647,6 +658,9 @@ td {
         width: 90%;
         height: 100px;
     }
+    #contact {
+        width: 100%;
+    }
 
     .contact-header,
     .contact-p {
@@ -693,6 +707,8 @@ td {
 
 /* For  smaller screens sizes from 500px wide and down */
 @media screen and (max-width: 500px) {
+
+   
     .contact-box-left {
         margin-left: 0;
     }
@@ -713,6 +729,28 @@ td {
     .yoga-text {
         font-size: 70%;
     }
+    #contact {
+        width: 100%;
+        height: 340px;
+        margin: 5px, 0 5px,5px;
+    }
+    #message {
+        height: 30px;
+        margin-left: 5px;
+
+    }
+    .button {
+        padding: 8px;
+    }
+    .contact-form {
+        left: 10px;
+        font-size: 80%;
+    }
+    .text-input {
+        margin-bottom: 0;
+    }
+    
+    
     #age {
         margin: 5px;
     }
