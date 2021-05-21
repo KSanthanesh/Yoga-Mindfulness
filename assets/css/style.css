@@ -714,7 +714,9 @@ td {
     .yoga-text {
         font-size: 70%;
     }
-    
+    #age {
+        margin: 5px;
+    }
    
 
 }
