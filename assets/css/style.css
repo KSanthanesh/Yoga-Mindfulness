@@ -404,7 +404,7 @@ td {
     color: #000;
     width: 100%;
     height: 30px;
-    margin: 5px 0 15px 1px;
+    margin: 5px 0 15px 5px;
     border: 1px solid #000;
     border-radius: 10px;
 }
@@ -741,6 +741,7 @@ td {
 
     .button {
         padding: 8px;
+        margin-top: 5px;
     }
 
     .contact-form {
@@ -752,7 +753,7 @@ td {
         margin-bottom: 0;
     }
 
-   #age {
+   #age, #mobile, #email {
        margin: 5px;
    }
 }
