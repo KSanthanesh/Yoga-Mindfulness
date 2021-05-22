@@ -18,6 +18,7 @@
 - [Structure](#structure "Goto Structure")
    - [Wireframes](#wireframes)
    - [Colours](#colours "Goto Colours Section")
+   - [Typography](#typography)
 - [Technologies Used](#technologies-used)
 - [Testing](#testing)
 - [Bugs](#bugs)
@@ -192,6 +193,10 @@ width="500">
 
 ### Colours
 I have used warm and light colours to create pleasant experience for those people to viewing this website.
+### Typography
+I have used Oswald,Laila,Sans-serif for heading and contents.<br>
+And i have used 'Tangerine', cursive for Testimonial.
+
 
 ## Technologies Used
 - HTML-used for to create the website.
@@ -204,31 +209,31 @@ I have used warm and light colours to create pleasant experience for those peopl
 - Responsive design - To generate the mockup image.
 
 ## Testing
+### Code Validation
+
 - W3 Markup Validation Service- To validate HTML document, i used Validate by direct input, some errors shown, and then i fixed the errors. 
 - W3 CSS Validation Service- To validate HTML document, i used validate by direct input, no errors shown, but 8 warning shown in the W3 validation page.
-- Browser Testing
-
-     I have used the most common browser to test my website,
+### Supported Screen and Browsers
+     
+  I have used the most common browser to test my website,
   1. Mozilla Firefox
   2. Google Chrome
   3. Microsoft Edge
-
     All the pages Responsive and displaying the website in order.
-- Mobile Testing
+### Responsive Screen
+I have verified the website in various mobiles like Galaxy S9,S3, i phone 6,7,8 and xiaomi max3 and makesure the website works properly.
+###Features Testing
+All the features tabs are Responding properly as per design.
+### Contact Form Testing
+Contact form was tested to makesure all the relevant information are filled before submitting.
+ ## Fixed Bugs
+ I have difficulties in aligning the pictures, by using the information of Youtube, Google and W3 School, managed to resolve the problem.<br>
+Next problem faced was thank you message did not display when the customer submit the enquiry. This problem was resolved with th help of Tutor and Mentor.
 
-  I have verified the website in various mobiles like Galaxy S9,S3, i phone 6,7,8 and xiaomi max3 and makesure the website works properly.
-- Features Testing
-
-  All the features tabs are Responding properly as per design.
-- Contact Form Testing
-
-  Contact form was tested to makesure all the relevant information are filled before submitting.
-  ## Bugs
-  I have difficulties in aligning the pictures, by using the information of Youtube, Google and W3 School, managed to resolve the problem.<br>
-  Next problem faced was thank you message did not display when the customer submit the enquiry. This problem was resolved with th help of Tutor and Mentor.
-
-  ## Deployment
-  Used Gitpod Workspace for coding. To preview the browser window need to type "python3 -m http.server" in the terminal window at the bottom.Afterthat, have to do git add for add files or remove files and do git commit for reasoning and do the git push for git hub repositary website.<br>   
+## Deployment
+### Gitpod
+  Used Gitpod Workspace for coding. To preview the browser window need to type "python3 -m http.server" in the terminal window at the bottom.Afterthat, have to do git add for add files or remove files and do git commit for reasoning and do the git push for git hub repositary website.
+### Github   
   Below the steps for deployment of my Yoga Mindfulness project using github.
   - In Github Repositary, click on Settings tab.
   - Then click on "Pages" tab in the left hand side sidebar.
@@ -237,7 +242,7 @@ I have used warm and light colours to create pleasant experience for those peopl
 
   The above steps have created the website URL "https://ksanthanesh.github.io/Yoga-Mindfulness/".
 
-  # Acknowledgement
+  ## Acknowledgement
 
   - I would like to thank my mentor <b>Rohit Sharma</b> and my tutors <b>Kasia</b> and <b>Roman</b> for their helpfulness, constructive feedback and guidance when needed.
   - I would like to thank the staff and students of Code Institute for their help.
