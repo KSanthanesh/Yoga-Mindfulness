@@ -42,15 +42,33 @@ The home page covers the following section:
 - Testimonials
 - Social media
 
+[Homepage-Mobile-1](docs/images/yoga-home-mobile.PNG)
+<br>
+[Homepage-Mobile-2](docs/images/Yoga-home-mobile-1.PNG)
+<br>
+[Homepage-Mobile-3](docs/images/Yoga-home-mobile-2.PNG)
+<br>
+[Homepage-Mobile-4](docs/images/Yoga-home-mobile-3.PNG)
+
+
 ### Online Yoga
 The online yoga covers the following section:
 - About the organisation
 - Types of yoga and their description
-- Price table
+- Price tablegit 
 - Timing table for yoga session
 - Header and footer same as in Homepage
 
 This page provides the client sufficient information to decide to join the yoga training.
+
+[Online Yoga-IPad-1](docs/images/online-yoga-ipad-1.PNG)<br>
+[Online Yoga-IPad-2](docs/images/Online-yoga-ipad-2.PNG)
+<br>
+[Online Yoga-IPad-3](docs/images/Online-yoga-ipad-3.PNG)
+<br>
+[Online Yoga-IPad-4](docs/images/Online-yoga-ipad-4.PNG)
+<br>
+[Online Yoga-IPad-5](docs/images/Online-yoga-ipad-5.PNG)
 
 ### Contact
 The final page is designed for clients and public enquires. The page contains following information:
@@ -63,6 +81,11 @@ The final page is designed for clients and public enquires. The page contains fo
 - Header and footer same as in Homepage
 
 This is important for the yoga centre to improve their services and enhance future Business growth.
+
+
+[Contact-IPad-1](docs/images/Contact-ipad-1.PNG)
+<br>
+[Contact-IPad-2](docs/images/contact-ipad-2.PNG)
 
 ## Strategy
 The website covers all the screen types, such as Pc, Laptop, Tablet and Mobile. The website is easily navigate to all the sections.
