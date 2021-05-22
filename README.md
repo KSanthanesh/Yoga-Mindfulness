@@ -30,6 +30,7 @@
 - It also covers, benefit in current Covid-19 situation.
 
 - The webpage is categorised into three main section, such us Home, Online Yoga and contact.
+- Finally Thanks message is displayed after submitting the Enquiry form.
 
 - The website covers all the screen types, such as Pc,Laptop,Tablet and Mobile.
 
@@ -86,6 +87,12 @@ This is important for the yoga centre to improve their services and enhance futu
 [Contact-IPad-1](docs/images/Contact-ipad-1.PNG)
 <br>
 [Contact-IPad-2](docs/images/contact-ipad-2.PNG)
+
+## Thanks Message
+This page designed for thanks message for the customers. Thanks message is displayed after submitting the Enquiry form.
+
+[Submit-Thanks Mesaage](docs/images/submit-mobile.PNG)
+
 
 ## Strategy
 The website covers all the screen types, such as Pc, Laptop, Tablet and Mobile. The website is easily navigate to all the sections.
