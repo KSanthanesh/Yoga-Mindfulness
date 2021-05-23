@@ -250,6 +250,8 @@ Next problem faced was thank you message did not display when the customer submi
   - Inspiration of this project comes from current Covid-19 situation where people are looking for alternative for keeping body and mind healthy.
   - The images on this site have been taken from Google Search and used only for education purpose to complete this project.
   - Benefits are taken from Google Search.
+  - Video Courtesy from Youtube (https://www.youtube.com/embed/nbZuzDcPhVE) for Education Purpose.
+  - Thanks for Reading my READMe.md file.
 
 
 
