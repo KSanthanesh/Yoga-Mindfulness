@@ -180,14 +180,14 @@ hr {
     margin-bottom: 20px;
 }
 
-.image-box-left img {
-    width: 80%;
-    height: 300px;
+.video-left iframe {
+    width: 150%;
+    height: 350px;
     border: 2px solid black;
-    border-radius: 20%;
+    border-radius: 10%;
 }
 
-.benefits>.image-box-left,
+.benefits>.video-left,
 .benefits-right {
     display: inline-block;
     margin-top: 5px;
@@ -221,7 +221,7 @@ hr {
 }
 
 .benefits-right {
-    margin-left: 70px;
+    margin-left: 350px;
 }
 
 /* Testimonials */
@@ -237,7 +237,7 @@ hr {
     border-radius: 20px;
     box-shadow: 10px 10px 5px grey;
     background-color: hotpink;
-    color: white;
+    color: whitesmoke;
     font-family: 'Tangerine', cursive;
 }
 
@@ -498,7 +498,7 @@ td {
         display: block;
     }
 
-    .image-box-left img {
+    .video-left iframe {
         width: 70%;
         height: 300px;
         margin: 20px 0 20px 40px;
@@ -607,7 +607,7 @@ td {
         font-size: 100%;
     }
     
-    .image-box-left iframe {
+    .video-left iframe {
         width: 90%;
         height: 250px;
         margin: 20px 0 20px 40px;
