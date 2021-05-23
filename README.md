@@ -40,7 +40,7 @@ The home page covers the following section:
 - Introduction of Yoga
 - Hero Image
 - Usefulness of Yoga in **Covid-19 situation**.
-- Benefits of Yoga
+- Benefits of Yoga with Video.
 - Testimonials
 - Social media
 
@@ -57,8 +57,7 @@ The home page covers the following section:
 The online yoga covers the following section:
 - About the organisation
 - Types of yoga and their description
-- Price tablegit 
-- Timing table for yoga session
+- Price & Timing table for yoga session
 - Header and footer same as in Homepage
 
 This page provides the client sufficient information to decide to join the yoga training.
@@ -130,7 +129,7 @@ Footer is consists of Social Networks icons such as Facebook, Twitter, Youtube a
 
 Home Page:<br>
 Hero image is at the top of the page, with animation of 7 seconds. I have added the tooltip function in Hero-image cover text to enhance the message, the importance of Surya Namaskar.<br> Origination of yoga is described below the hero image. It also described why yoga is the better choice for Covid situation.<br>
-Followed by Lists of benefits of yoga with image, also enhance the benefit of yoga by using of hover. And finally the page finishes with Testimonials from valuable customers.
+Followed by Lists of benefits of yoga with video, also enhance the benefit of yoga by using of hover. And finally the page finishes with Testimonials from valuable customers.
 
 Online Yoga:<br>
 Second page is covers the topic of Yoga Mindfulness. This page covers about us, advise from yoga master and dedicating time to practice yoga.<br>
@@ -151,7 +150,7 @@ Thanks message is displayed after submitting.<br>
 Finally it covers contact details such as Phone number, email and Address of Yoga Mindfulness.
 
 ### Future Features
-- videos of each yoga type will help the viewers to understand the benefit of yoga.
+- videos with command section of each yoga type will help the viewers to understand the benefit of yoga.
 - Live chat option will helpful for customers to gain confidence about our website and services.
 - We like to use Paypal, Credit and Debit card services in future.
 
@@ -213,8 +212,7 @@ And i have used 'Tangerine', cursive for Testimonial.
 
 - W3 Markup Validation Service- To validate HTML document, i used Validate by direct input, some errors shown, and then i fixed the errors. 
 - W3 CSS Validation Service- To validate HTML document, i used validate by direct input, no errors shown, but 8 warning shown in the W3 validation page.
-### Supported Screen and Browsers
-     
+### Supported Screen and Browsers    
   I have used the most common browser to test my website,
   1. Mozilla Firefox
   2. Google Chrome
@@ -222,7 +220,7 @@ And i have used 'Tangerine', cursive for Testimonial.
     All the pages Responsive and displaying the website in order.
 ### Responsive Screen
 I have verified the website in various mobiles like Galaxy S9,S3, i phone 6,7,8 and xiaomi max3 and makesure the website works properly.
-###Features Testing
+### Features Testing
 All the features tabs are Responding properly as per design.
 ### Contact Form Testing
 Contact form was tested to makesure all the relevant information are filled before submitting.
@@ -248,8 +246,8 @@ Next problem faced was thank you message did not display when the customer submi
   - I would like to thank the staff and students of Code Institute for their help.
   - I also like to thank Slack Community for sharing the open discussion from various students.
   - Inspiration of this project comes from current Covid-19 situation where people are looking for alternative for keeping body and mind healthy.
-  - The images on this site have been taken from Google Search and used only for education purpose to complete this project.
-  - Benefits are taken from Google Search.
+  - The images on this site have been taken from Google Search and pexels, and used only for education purpose to complete this project.
+  - Benefits points are taken from Google Search.
   - Video Courtesy from Youtube (https://www.youtube.com/embed/nbZuzDcPhVE) for Education Purpose.
   - Thanks for Reading my READMe.md file.
 
