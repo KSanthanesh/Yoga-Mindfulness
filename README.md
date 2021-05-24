@@ -52,7 +52,6 @@ The home page covers the following section:
 <br>
 [Homepage-Mobile-4](docs/images/Yoga-home-mobile-3.PNG)
 
-
 ### Online Yoga
 The online yoga covers the following section:
 - About the organisation
@@ -187,16 +186,14 @@ width="500">
 <summary>Contact Mobile View</summary>
 <img src="docs/wireframes/Contact-Mobile1.png" 
 width="500">
-
 </details>
 
 ### Colours
 I have used warm and light colours to create pleasant experience for those people to viewing this website.
 ### Typography
-I have used Oswald,Laila,Sans-serif for heading and contents.<br>
+I have used Oswald,Laila,Sans-serif for Sub-heading and contents.<br>
+'Dancing Script', cursive used for Heading.
 And i have used 'Tangerine', cursive for Testimonial.
-
-
 ## Technologies Used
 - HTML-used for to create the website.
 - CSS- used for style the website.
