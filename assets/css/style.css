@@ -206,7 +206,7 @@ hr {
 
 .benefits ul li {
     list-style: none;
-    padding: 5px 50px;
+    padding: 5px 70px;
     background: honeydew;
     box-shadow: 0 5px 25px hotpink;
     transition: transform 0.5s;
@@ -473,7 +473,7 @@ td {
         width: 100%;
         clear: left;
         float: left;
-        margin-left: 30px;
+        margin-left: 20px;
         margin-bottom: 20px;
         line-height: 25px;
     }
@@ -502,6 +502,10 @@ td {
         width: 70%;
         height: 300px;
         margin: 20px 0 20px 40px;
+    }
+
+    .benefits-right {
+        margin-left: 150px;
     }
 
     .benefits-right ul li {
