@@ -715,17 +715,17 @@ td {
     }
 
     #logo {
-        font-size: 140%;
+        font-size: 130%;
         margin-left: 10px;
-        margin-top: 10px;
+        margin-top: 8px;
     }
 
     #menu {
-        font-size: 80%;
+        font-size: 85%;
     }
 
     .benefits-right ul li {
-        padding: 5px 50px;
+        padding: 5px 50px 5px 30px;
     }
 
     .contact-box-left {
