@@ -40,7 +40,7 @@ h1 {
     width: 13%;
     height: 65px;
     padding: 0;
-    border: 3px solid black;
+    border: 2px solid black;
     border-radius: 50%;
 }
 
@@ -123,7 +123,7 @@ h1 {
 
 [data-tooltip] {
     position: relative;
-    cursor: default;
+    cursor: auto;
 }
 
 [data-tooltip]::after {
