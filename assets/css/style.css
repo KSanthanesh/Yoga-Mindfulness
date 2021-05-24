@@ -708,6 +708,10 @@ td {
         font-size: 80%;
     }
 
+    .benefits-right ul li {
+        padding: 5px 50px;
+    }
+
     .contact-box-left {
         margin-left: 0;
     }
