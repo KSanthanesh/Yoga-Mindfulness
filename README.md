@@ -82,7 +82,6 @@ The final page is designed for clients and public enquires. The page contains fo
 
 This is important for the yoga centre to improve their services and enhance future Business growth.
 
-
 [Contact-IPad-1](docs/images/Contact-ipad-1.PNG)
 <br>
 [Contact-IPad-2](docs/images/contact-ipad-2.PNG)
@@ -91,7 +90,6 @@ This is important for the yoga centre to improve their services and enhance futu
 This page designed for thanks message for the customers. Thanks message is displayed after submitting the Enquiry form.
 
 [Submit-Thanks Mesaage](docs/images/submit-mobile.PNG)
-
 
 ## Strategy
 The website covers all the screen types, such as Pc, Laptop, Tablet and Mobile. The website is easily navigate to all the sections.
