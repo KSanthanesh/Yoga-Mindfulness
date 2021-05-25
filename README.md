@@ -118,21 +118,21 @@ I want my user to understand the benefits of yoga. And how to enrol into the tra
 ### Features
 Header and Footer are commenly used in all pages.
 
-Header:<br>
+#### Header:<br>
 Header is consists of Name and Logo and located on the left side of the page. There are three menu options are available on the right side. The three menu options used are Home, Online Yoga and Contact.
 
-Footer:<br>
+#### Footer:<br>
 Footer is consists of Social Networks icons such as Facebook, Twitter, Youtube and Instagram.
 
-Home Page:<br>
+#### Home Page:<br>
 Hero image is at the top of the page, with animation of 7 seconds. I have added the tooltip function in Hero-image cover text to enhance the message, the importance of Surya Namaskar.<br> Origination of yoga is described below the hero image. It also described why yoga is the better choice for Covid situation.<br>
 Followed by Lists of benefits of yoga with video, also enhance the benefit of yoga by using of hover. And finally the page finishes with Testimonials from valuable customers.
 
-Online Yoga:<br>
+#### Online Yoga:<br>
 Second page is covers the topic of Yoga Mindfulness. This page covers about us, advise from yoga master and dedicating time to practice yoga.<br>
 Followed by Types of yoga, there are 8 types of common yogas with images described in this page. the page finishes with date, time and Price list.
 
-Contact:<br>
+#### Contact:<br>
 The final page covers enquiry form and contact details.
 <br>
 Contact form consists of the following fields and validation.
