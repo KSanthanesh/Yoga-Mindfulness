@@ -781,6 +781,11 @@ td {
         margin-bottom: 0;
     }
 
+    .social-networks i {
+        font-size: 120%;
+        padding: 18px;
+    }
+
     .contact-box-left,
     .contact-box-right,
     .contact-box-center {
