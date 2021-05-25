@@ -205,8 +205,12 @@ And i have used 'Tangerine', cursive for Testimonial.
 ## Testing
 ### Code Validation
 
-- W3 Markup Validation Service- To validate HTML document, i used Validate by direct input, some errors shown, and then i fixed the errors. 
-- W3 CSS Validation Service- To validate HTML document, i used validate by direct input, no errors shown, but 8 warning shown in the W3 validation page.
+- W3 Markup Validation Service- To validate HTML document, i used Validate by direct input, some errors shown, and then i fixed the errors.<br> 
+W3 HTML Validation Result:<br>
+<b>Document checking completed. No errors or warnings to show.</b>
+- W3 CSS Validation Service- To validate HTML document, i used validate by direct input, no errors shown, but 8 warning shown in the W3 validation page.<br>
+W3 CSS validation Result:<br> 
+<b>Congratulations! No Error Found.</b>
 ### Supported Screen and Browsers    
   I have used the most common browser to test my website,
   1. Mozilla Firefox
